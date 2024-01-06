@@ -49,4 +49,5 @@ See below for weekly rides, occasional rides, tire pressure calculators, and rou
 ## Route Planning Resources
 - [Gravel Bike Adventures](http://gravelbikeadventures.com)
 - [gravelmap.com](gravelmap.com)
+- [Slipstream](https://rideslipstream.ai)
 - (more to come)
