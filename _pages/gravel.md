@@ -45,9 +45,11 @@ See below for weekly rides, occasional rides, tire pressure calculators, and rou
 ## Tire Pressure Calculators
 - Rene Herse simple calculator // [website](https://www.renehersecycles.com/tire-pressure-calculator/)
 - SRAM detailed calculator // [website](https://axs.sram.com/guides/tire/pressure)
+- SILCA very detailed calculator // [website](https://silca.cc/pages/app-tire-pressure-calculator)
 
 ## Route Planning Resources
 - [Gravel Bike Adventures](http://gravelbikeadventures.com)
 - [gravelmap.com](gravelmap.com)
 - [Slipstream](https://rideslipstream.ai)
+- [Not Bikeable](https://www.notbikeable.com/blog)
 - (more to come)
