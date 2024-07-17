@@ -3,6 +3,8 @@ main:
     url: /gravel/
   - title: "HAB"
     url: /hab/
+  - title: "ATLAS"
+    url: /atlas/
   # - title: "Posts"
   #   url: /posts/
   # - title: "Categories"
