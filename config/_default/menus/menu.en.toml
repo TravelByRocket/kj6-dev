@@ -1,25 +1,20 @@
 #  menu items
 [[main]]
-  name = "Blog"
-  weight = 5
-  url = "blog/"
+  name = "Gravel"
+  weight = 10
+  url = "gravel/"
 
 [[main]]
-  name = "Docs"
-  weight = 2
-  url = "docs/"
+  name = "HAB"
+  weight = 20
+  url = "hab/"
 
 [[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
+  name = "ATLAS"
+  weight = 30
+  url = "atlas/"
 
 [[main]]
-  name = "Example"
-  weight = 3
-  url = "https://docs.neuralvibes.com"
-
-# [[main]]
-#   name = "Blog"
-#   weight = 4
-#   url = "blog/"
+  name = "About"
+  weight = 40
+  url = "about/"
