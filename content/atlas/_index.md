@@ -1,11 +1,27 @@
 ---
 title: Mobile App Development Course
 ---
-Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates.
+Outline
 
-[xcode](xcode)
-[xcode2](/xcode/xcode2)
-[xcode3](xcode/xcode3)
-[xcode4](xcode/xcode4)
+Syllabus
 
-{{< button "./install-theme/" "Get started now" >}}
+Contact
+
+Office Hours
+
+| Class Week              | Topics                                     |
+| ----------------------- | ------------------------------------------ |
+| [Class 1](class010.md)  | Intro, Xcode, Swift, SwiftUI, Github, git, |
+| [Class 2](class020.md)  |                                            |
+| [Class 3](class030.md)  |                                            |
+| [Class 4](class040.md)  |                                            |
+| [Class 5](class050.md)  |                                            |
+| [Class 6](class060.md)  |                                            |
+| [Class 7](class070.md)  |                                            |
+| [Class 8](class080.md)  |                                            |
+| [Class 9](class090.md)  |                                            |
+| [Class 10](class100.md) |                                            |
+| [Class 11](class110.md) |                                            |
+| [Class 12](class120.md) |                                            |
+| [Class 13](class130.md) |                                            |
+| [Class 14](class140.md) |                                            |

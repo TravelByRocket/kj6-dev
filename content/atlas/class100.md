@@ -1,5 +1,5 @@
 ---
-title: 'Class10'
+title: "11: November 11"
 draft: true
 weight: 100
 ---
