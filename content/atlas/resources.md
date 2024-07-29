@@ -25,3 +25,4 @@ weight: 300
 - https://www.swiftuifieldguide.com
 - Stanford course https://cs193p.sites.stanford.edu/2023
 - Kodeco style guide
+- Boston College course https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe
