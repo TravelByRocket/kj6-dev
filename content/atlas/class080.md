@@ -1,6 +1,6 @@
 ---
-title: "9: October 28"
+title: "8: October 21"
 draft: true
 weight: 80
 ---
-Accessibility, Internationalization
+Animations, Transitions, Gestures, Searchable

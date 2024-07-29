@@ -1,6 +1,6 @@
 ---
-title: "11: November 11"
+title: "10: November 4"
 draft: true
 weight: 100
 ---
-App Intents
+Testing, Widgets,

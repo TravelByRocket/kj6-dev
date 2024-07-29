@@ -1,6 +1,6 @@
 ---
-title: "8: October 21"
+title: "7: October 14"
 draft: true
 weight: 70
 ---
-Animations, Transitions, Gestures, Searchable
+User Defaults, JSON Parsing, SwiftData

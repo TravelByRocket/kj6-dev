@@ -1,23 +1,29 @@
 ---
-title: "5: September 30"
+title: "4: September 23"
 draft: true
 weight: 40
 ---
-Navigation and Presentation Views
+Container Views, Shapes and Styling
 
-
-# Navigation and Presentation
+# Container Views
 
   
 
-- NavigationStack
+- List
 
-- TabView
+- Section
 
-- Sheet
+- ScrollView
 
-- Full Screen Cover
+- ForEach
 
-- Menu
+- Grid
 
-- Alert
+# Shapes and Styling
+
+  
+
+- Shapes (Rectangle, Circle, etc.)
+
+- Gradient
+

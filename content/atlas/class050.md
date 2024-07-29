@@ -1,6 +1,23 @@
 ---
-title: "6: October 7"
+title: "5: September 30"
 draft: true
 weight: 50
 ---
-Property Wrappers, Environment Variables, Protocols
+Navigation and Presentation Views
+
+
+# Navigation and Presentation
+
+  
+
+- NavigationStack
+
+- TabView
+
+- Sheet
+
+- Full Screen Cover
+
+- Menu
+
+- Alert

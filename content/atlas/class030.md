@@ -1,29 +1,27 @@
 ---
-title: "4: September 23"
+title: "3: September 16"
 draft: true
 weight: 30
 ---
-Container Views, Shapes and Styling
+Interactive Views (part 2), Layout Views
 
-# Container Views
+interactive views part 2
+layout views
 
-  
-
-- List
-
-- Section
-
-- ScrollView
-
-- ForEach
-
-- Grid
-
-# Shapes and Styling
+# Layout Views
 
   
 
-- Shapes (Rectangle, Circle, etc.)
+- VStack
 
-- Gradient
+- HStack
 
+- ZStack
+
+- Spacer
+
+- Divider
+
+- GeometryReader
+
+- Group

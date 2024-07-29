@@ -1,6 +1,6 @@
 ---
-title: "13: December 2"
+title: "12: November 18"
 draft: true
 weight: 120
 ---
-Cross-Platform Development, Deployment
+Networking, Syncing, Login

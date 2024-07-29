@@ -26,3 +26,5 @@ weight: 300
 - Stanford course https://cs193p.sites.stanford.edu/2023
 - Kodeco style guide
 - Boston College course https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe
+- https://roadmap.sh/ios
+- SwiftUI Companion

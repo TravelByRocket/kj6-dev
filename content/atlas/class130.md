@@ -1,6 +1,6 @@
 ---
-title: "14: December 9"
+title: "13: December 2"
 draft: true
 weight: 130
 ---
-Final Presentations, Course Review, Next Steps
+Cross-Platform Development, Deployment

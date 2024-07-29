@@ -1,6 +1,6 @@
 ---
-title: "10: November 4"
+title: "9: October 28"
 draft: true
 weight: 90
 ---
-Testing, Widgets,
+Accessibility, Internationalization
