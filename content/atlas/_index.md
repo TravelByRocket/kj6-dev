@@ -9,7 +9,62 @@ Contact
 
 Office Hours
 
+Course Catalog Description
+> Provides a comprehensive overview of developing mobile applications using a range of technologies including software developers' kits, object-oriented programming and human interface design principles. Students incorporate leading edge technologies with their own academic pursuits and personal interests to develop mobile applications. Explores the social and cultural effects of app and mobile-based computing.
+
 We have 14 weeks. My goal is to get through all of the most important views, modifiers, and basic data management in the first half
+
+A mac running Xcode 15 or higher better is required. Heard there is a cart of Macs but also that ATLAS computer lab has macs with Xcode.
+
+General communication through Slack
+
+Official announcements through Canvas. Make sure you have notifications turned on. 
+
+X% of code allowed from somewhere else, always cited, be able to explain all code
+
+Go over use of AI, ChatGPT, Copilot, Claude
+
+Quizzes could be on specific knowledge knowledge and/or see simple interface and do pseudo code on paper
+
+SF Symbols
+
+Design experience in ATLAS can make you a great dev
+
+Talk through app submission process, maybe with someone that has an app up. App review guidelines.
+
+May have assigned reading
+
+Can work with others but code must be your own
+
+Looking into: guest speakers
+
+Project idea: find something on behance and make it 
+
+Time split could be about first half of instruction and demo with the second half being project time
+
+Design critiques were well enjoyed in the past
+
+Rotating code review
+
+Better to do something simple than to cheat
+
+Are they using Figma? Need to prototype the app somehow
+
+Have checkpoints early and often with projects so they can be course corrected
+
+2 quizzes, 10 pts each
+
+6 homeworks, 10 each
+
+project 1, 20, tell your dev story
+
+Project 2, 30, calculate something
+
+project 3, 40, use an API with good UI
+
+project 4, 50, pick a framework to use
+
+
 
 | Class Week              | Topics                                                         |
 | ----------------------- | -------------------------------------------------------------- |
