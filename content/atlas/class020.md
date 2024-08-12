@@ -8,6 +8,8 @@ Basic Views and Modifiers (part 2), Interactive Views (part 1)
 Finish basic views and modifiers
 Interactive views part 1
 
+SF Symbols
+
 # Basic Modifiers
 
 - padding

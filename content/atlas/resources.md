@@ -28,3 +28,12 @@ weight: 300
 - Boston College course https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe
 - https://roadmap.sh/ios
 - SwiftUI Companion
+- A Best-in-Class iOS App Book
+- APress books Available through CU Libray
+	- Beginning iPhone Development with SwiftUI: Exploring the iOS SDK Seventh edition (June 23, 2023) https://www.amazon.com/Beginning-iPhone-Development-SwiftUI-Exploring/dp/1484295404
+	- Swift 5 for Absolute Beginners: Learn to Develop Apps for iOS https://www.amazon.com/Swift-Absolute-Beginners-Learn-Develop/dp/1484248678/
+	- Developing Inclusive Mobile Apps
+	Test-Driven Development in Swift
+- Swift Book https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
+	- A Swift Tour https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
+- Human Interface Guidelines

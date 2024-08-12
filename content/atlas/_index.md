@@ -1,70 +1,166 @@
 ---
 title: Mobile App Development Course
 ---
-Outline
 
-Syllabus
+## ATLS-4120-020 Mobile Application Development, Fall 2024
 
-Contact
+Course Description:
 
-Office Hours
-
-Course Catalog Description
 > Provides a comprehensive overview of developing mobile applications using a range of technologies including software developers' kits, object-oriented programming and human interface design principles. Students incorporate leading edge technologies with their own academic pursuits and personal interests to develop mobile applications. Explores the social and cultural effects of app and mobile-based computing.
 
-We have 14 weeks. My goal is to get through all of the most important views, modifiers, and basic data management in the first half
+## Overview 
 
-A mac running Xcode 15 or higher better is required. Heard there is a cart of Macs but also that ATLAS computer lab has macs with Xcode.
+Consider:
+* Your design experience in ATLAS can make you an outstanding dev. 
+* Flipped classroom will give you more hands-on time when help is available
+* Applicable at least to to Android and React (Native) because of declarative nature
+* Impart on you some strong opinions about code and design, and making things the way you believe in them
+* Unleash an infinitely scalable platform
+* I like the hardware-software integration aspect mixed with design and business
+* I like that I get to touch and experience my code
 
-General communication through Slack
+The course may cover a few different modes throughout the semester:
+* Lecture videos outside of class (flipped classroom)
+* In-class instruction
+* In-class project work
+* Design reviews
+* Code reviews
+* Guest speakers
+* Assigned reading
 
-Official announcements through Canvas. Make sure you have notifications turned on. 
+## Contact
 
-X% of code allowed from somewhere else, always cited, be able to explain all code
+### Slack
 
-Go over use of AI, ChatGPT, Copilot, Claude
+* Course Slack Channel: `atls-4120-fall-2024`
+* My Slack Profile: `@Bryan Costanza`
 
-Quizzes could be on specific knowledge knowledge and/or see simple interface and do pseudo code on paper
+I prefer Slack for communication with the class. Use the course channel for general topics, anything that might be relevant to the class, or might be answered by your peers.
 
-SF Symbols
+You can send me a direct message for anything that is not applicable for others in the class or that should otherwise be private, like grades or other concerns.
 
-Design experience in ATLAS can make you a great dev
+### Email
 
-Talk through app submission process, maybe with someone that has an app up. App review guidelines.
+See my profile on Slack for my email address. 
 
-May have assigned reading
+Non-general questions and communuciation that is not relevant to others in the class can be sent to me through a direct message on Slack or by email. 
 
-Can work with others but code must be your own
+### Canvas
 
-Looking into: guest speakers
+Official announcement will come through Canvas, so make sure you have notifications turned on. 
 
-Project idea: find something on behance and make it 
+## Office Hours
 
-Time split could be about first half of instruction and demo with the second half being project time
+* Wednesdays 1:30-2:00
+* Fridays 1:30-2:00
+* Zoom link in Slack channel description
 
-Design critiques were well enjoyed in the past
+I'm open to finding other days or times if these conflict with your schedule.
 
-Rotating code review
+This is also an open time for you to bring disucssion ideas, career questions, or get general feedback. You are never obligated to attend, but I would think that if you don't attend at least a couple of times in the semester then you will have passed up an opportunity for advancing your knowledge, perspective, and career. 
 
-Better to do something simple than to cheat
+## System Requirements
 
-Are they using Figma? Need to prototype the app somehow
+### macOS
 
-Have checkpoints early and often with projects so they can be course corrected
+You MUST have access to a computer running macOS Ventura 13.5 (July 2023) or later. The OS names after Ventura are Sonoma (September 2023) and Sequioa (currently Beta, full release expected in September 2024).
 
-2 quizzes, 10 pts each
+I have heard mixed responses about whether there may be loaner laptops through ATLAS, so that will be up to you to find out. It might also work to use a mac in the computer lab.
 
-6 homeworks, 10 each
+### Xcode
 
-project 1, 20, tell your dev story
+Additionally, you MUST be able to install Xcode 15 or 16 on the computer that you will use. Xcode 15.4 was released in May 2025 and it is the latest release as of 11 August 2024. Xcode 16 is currently on its 5th beta release, with its expected final release in September 2024. 
 
-Project 2, 30, calculate something
+There are a few different ways to get Xcode, and we will cover that in class, but if you have a macOS version listed above and you have permision to install apps on your device, then you should have everything you need. I would generally recommend that you use the latest stable release (15.4 right now) but I am always running the latest beta on my machine so you may choose yourself between 15.4 or 16.0. 
 
-project 3, 40, use an API with good UI
+## Original Work
 
-project 4, 50, pick a framework to use
+Expectations:
 
+* The work is overall your own.
+* Up to 10% of your code can be from elsewhere, if you cite it. 
+    * A comment in your code with a link to the source and a note about how much code you used is required.
+* You must be able to explain ALL of your code.
+    * If you are using code you don't understand then you need to flag it for discussion by making a clear comment in your code and/or writing to me.
 
+## Use of AI
+
+This is an evolving topic, of course. I have a license for GitHub Copilot at work and I have a personal subscription for home as well. I think it is a powerful tool, especially when I am working on the early phases of a project in an area that I am not very familiar with.
+
+Expectations:
+* You may use AI, and you may use it extensively
+* You must be able to fully explain the code it generates
+* You must be able to develop app code from scratch without assistance
+
+Suggestions:
+* Do not rely on it being available
+* Focus on figuring out code, not figuring out the AI
+* Use it to learn, ask questions, develop faster, generate ideas
+
+Consider:
+* AI only knows SwiftUI at an OK level, it's going to be wrong at times
+* Swift Intelligence (similar to Copilot) will soon be generally available to all Apple developers and it wil be trained on proprietary information from Appl's framework code.
+* Future success as a developer probably means working well with AI
+    * Cal Newport's book *Deep Work*: "In this new economy, three groups will have a particular advantage: (1) those who can **work well and creatively with intelligent machines**, (2) those who are the best at what they do, and (3) those with access to capital. (p. 28)
+
+## Cheating
+
+If you follow the guidance above while proactively communicating your sources, process, and uncertainties, you will not find yourself unexpectedly facing penalties or other administrative action. 
+
+If you conceal dishonest intentions behind your work then I will reduce or zero out scores for relevant assignments and report my findings to the ATLAS Institute.
+
+You would be much better off doing something simple that to cheat.
+
+Do not not use outside coding tutorials as your assignment submissions.
+ 
+## Grading
+
+This is the tentative list of assignments and points for each. Weighting is determined only by the points available for each assignment. There is no category weighting. 
+
+You can expect about one assignment per week. For now there are 12 scored assignments over our 14 weeks of class.
+
+### Assignments
+
+Homework and projects will be submitted through GitHub Classroom. 
+
+Quizzes could be on specific knowledge knowledge or writing pseudocode to show your understanding without using a computer. 
+
+| Assignment              | Points | Description                           | Due Date        |
+| ----------------------- | ------ | ------------------------------------- | --------------- |
+| Quizzes (2)             | 20     | Two quizzes, 10 points each           | Various, TBD             |
+| Homeworks (6)           | 60     | Six homework assignments, 10 points each | Various, TBD |
+| Project 1               | 20     | Your Dev Story App                    | Week 3          |
+| Project 2               | 30     | Calculation App                       | Week 6          |
+| Project 3               | 40     | API-Based App                         | Week 10         |
+| Project 4               | 50     | Framework-Based App                   | Week 14         |
+| **Under Consideration** |        |                                       |                 |
+| Project A               | ??     | UI Exploration (Behance)              | Week ??         |
+| Project B               | ??     | Git and Xcode Intro                   | Week ??         |
+
+### Late Policy
+
+I can be fairly flexible on due dates in advance but I will be very inflexible with due dates on short notice. Let me know as soon as possible if you think you should have a due date adjusted. 
+
+* Up to 24 hours late: reduction of 20% of the possible points
+* Up to 48 hours late: reduction of 40% of the possible points
+* After 48 hours: assignment will not be accepted
+
+```
+Example: Rubric score of 85/100 point turned in 1 hour late. 
+
+Starting score: 85
+Possible score: 100
+Penalty: 20% of Possible score (20 points)
+
+StartingScore - PenaltyPoints = FinalScore
+85 - 20 = 65
+
+Final score 65/100
+```
+
+## Schedule/Outline
+
+We have 14 class sessions this semester. My goal for the first half of the semester is to get through all of the most important views, modifiers, and basic data management concepts. In the second half of the semester we will cover more advanced topics and frameworks to round out your app development knowledge. The second half of the class will also have you exploring some material on your own, based on your interests and personal app goals. 
 
 | Class Week              | Topics                                                         |
 | ----------------------- | -------------------------------------------------------------- |
@@ -88,5 +184,16 @@ project 4, 50, pick a framework to use
 | [Class 13](class130.md) | Cross-Platform Development, Deployment                         |
 | [Class 14](class140.md) | Final Presentations, Course Review, Next Steps                 |
 
-Project self-prompt 
+---
+
+## Pitching Your Poject
+
+Try this prompt:
 > For [target audience], [app name]  [solves a specific problem or meets a specific need] by [key feature or unique selling point].
+
+---
+**Work In Progress**
+Add to schedule
+* App review guidelines
+* App submission process
+* Human Interface Guidelines
