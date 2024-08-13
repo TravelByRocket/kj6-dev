@@ -3,30 +3,127 @@ title: "1: August 26"
 draft: true
 weight: 10
 ---
-Environment Setup, Git Basics, Basic Views (part 1)
 
-## Introduction
+## Outline
 
-- Instructor Introduction
-	- Background
-	- ATLAS
-	- Current Role
-		- Swift+SwiftUI
-		- `git`
-		- Figma
-		- Designers
-		- QA
-		- I18n
-		- A11y
-		- CI/CD
-	- Side Apps
-- Goals
-	- Quickly Make First App(s)
-	- Creative+Industry Practices
-- Questions
-	- Experience?
-	- Motivation?
-	- Hopes?
+* Personal Introductions and Syllabus
+* Intro Apple, Xcode, Swift, SwiftUI
+* Environment Setup
+* `git` and Github
+* Announce Assignments
+
+## Personal Introductions & Syllabus
+
+### Instructor
+
+I started off in Aerospace Engineering and have had quite a few experiences in a few different industries. I taught myself to be a developer but I built that on top of my design degree and my engineering degree. I continue to develop my own apps, which feels like a slow but very interesting process.
+
+#### Background 
+
+* B.S. in Aerospace Engineering at Cal Poly, San Luis Obispo
+	* Minor in Psychology
+	* Focus on Propulsion Systems
+* M.S. in Creative Technologies & Design at CU Boulder
+	* Interactive Art Installations 
+		* see esp. Permutate and The Intervening Substance by Nicole Banowetz
+	* Generative Art
+	* Unity 3D (turns out to be like aerospace)
+	* iOS App for Haunted House
+* Self-taught Software Developer
+
+#### Experience
+
+* Aerospace Systems Engineer at Aerojet
+* Middle & High School Science Teacher in Italy
+* Informal Science Educator
+* UAV Sales Engineer
+* Pharmaceutical Data Analyst
+* Education & Outreach at LASP
+* H/W & S/W Engineer, Science Instruments and Museum Exhibits
+* **iOS Developer** at Woodridge
+* **iOS Developer** at Workday
+
+#### Current Role
+
+* UI Components based on Workday's Canvas Design System
+* Extensive Accessibility and Internationalization
+* Work most closely with UX Designers via Figma
+* Utilize Continuous Integrations/Development
+* Set the standard for using modern SwiftUI
+* Support QA teams for ensuring stable releases
+
+### Students
+
+* Coding experience (share more in upcoming project)
+* App dev goals and interests
+* Thoughts on App Store submission
+
+### Syllabus
+
+See the Syllabus page.
+
+## Intro Apple, Xcode, Swift, SwiftUI
+
+Apple creates Xcode and you must use it to develop for Apple platforms. Swift is an open source language that started within Apple. SwiftUI is a closed source UI framework developed by Apple to create apps. Swift is replacing Objective-C and SwiftUI is replacing UIKit. Be thankful that you are starting today instead of 2018.
+
+Both Swift and SwiftUI are developing quickly but things are starting to slow down, especially with Swift. There are language features I use on a daily basis that didn't exist a few years ago. We are in a transition phase from Swift 5 to Swift 6 and I'd expect it's the last big change that we'll see for years. The big change is related to strict concurrency and it will break a lot of code; some Swift code may stay in Swift 5 language mode until the heat death of the universe. 
+
+Many developers complain about how SwiftUI is not completely ready for widespread use but I disagree with almost no exception. Yes, there are things that you can do in UIKit that you cannot do in SwiftUI but that gap is closing and one day in the far future (a decade?) UIKit will no longer be the preferred way to do anything. I think most of the complaints about SwiftUI come from people that learned the "old way" and don't understand the way to get things done in SwiftUI. Other complaints I think just come from the fact that people are frequently trying to do things that they maybe should just not do but instead of finding the path of least resistance by adopting natuve patterns, they persevere the hard way. Also, I know only the slightest about UIKit and to this day Objective-C looks completely foreign to me.
+
+In short: I can almost guarantee that anyone complaining about SwiftUI either don't understand SwiftUI, are doing things the hard way, or both. 
+
+### Xcode
+
+* New Project
+	* The famous `Shift-Cmd-N`
+		* A new file is merely `Cmd-N` 😅
+	* Or from the menu
+	* Select iOS App
+	* Bundle Identifier as reverse URL
+* Main files and structure
+	* App
+	* ContentView
+	* Project File
+* Navigator
+	* Does not necessarily match file structure, but usually does
+* Preview
+	* Can be turned on and off
+	* Error messages almost helpful
+	* Preview macro
+* Simulator
+	* Differences from physical device
+	* No VoiceOver but can get close
+	* Not 100% necessary for iOS dev
+	* Select the OS (also affects Preview)
+* Console Output
+	* `print` of course
+	* Common to get lots of useless messages
+* Settings
+	* Accounts
+	* Locations
+	* Derived Data
+* Help Menu
+	* Documentation
+	* Human Interface Guidelines
+* Component Library
+	* Configure views from side menu
+* Show some main views
+
+## Environment Setup
+
+Xcode
+Xcodes
+Apple Dev Account
+
+## `git` and Github
+
+
+
+## Announce Assignments
+
+
+
+
 
 "Set up the environment"
 ## Swift
@@ -94,6 +191,9 @@ The even have a nice little tutorial for [Build an iOS app with SwiftUI](https:/
 - Documentation
 - Component Library
 - Developer Account
+
+JetBrains Mono
+
 
 ## Apple Developer Account
 
