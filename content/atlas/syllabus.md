@@ -163,6 +163,9 @@ We have 14 class sessions this semester. My goal for the first half of the semes
 | [Class 13](class130.md) | Cross-Platform Development, Deployment                         |
 | [Class 14](class140.md) | Final Presentations, Course Review, Next Steps                 |
 
+## Digital Humanities Graduate Certificate
+
+This course counts as an elective toward the Digital Humanities Graduate Certificate, an interdisciplinary nine-credit program that prepares students to implement computational or digital approaches to humanities inquiry and/or develop humanities perspectives on technology. It is open to any CU Boulder graduate student in good standing, regardless of discipline. For more information visit https://www.colorado.edu/crdds/dhgc or email digital.humanities@colorado.edu. 
 
 ---
 
