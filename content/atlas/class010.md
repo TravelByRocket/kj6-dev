@@ -1,6 +1,6 @@
 ---
 title: "1: August 26"
-draft: true
+draft: false
 weight: 10
 ---
 
@@ -16,7 +16,9 @@ weight: 10
 
 ### Instructor
 
-I started off in Aerospace Engineering and have had quite a few experiences in a few different industries. I taught myself to be a developer but I built that on top of my design degree and my engineering degree. I continue to develop my own apps, which feels like a slow but very interesting process.
+I began my journey in Aerospace Engineering, which gave me a foundation of problem-solving and technical skills. I’ve ventured into several different industries since then, each adding to my experience and perspective. Although I’m a self-taught developer, my design and engineering background has been greatly shaped my approach to software development.
+
+I continue to work on developing my own apps—a process that, while sometimes slow, is fascinating and rewarding. Every step of the way, I’m constantly learning and applying new ideas, which I’m excited to share with you in this course.
 
 #### Background 
 
@@ -52,25 +54,27 @@ I started off in Aerospace Engineering and have had quite a few experiences in a
 * Set the standard for using modern SwiftUI
 * Support QA teams for ensuring stable releases
 
-### Students
+### Learn About Students
 
 * Coding experience (share more in upcoming project)
 * App dev goals and interests
-* Thoughts on App Store submission
+* Thoughts on App Store submission and TestFlight ($)
 
 ### Syllabus
 
 See the Syllabus page.
 
-## Intro Apple, Xcode, Swift, SwiftUI
+## Introduction Apple, Xcode, Swift, SwiftUI
 
-Apple creates Xcode and you must use it to develop for Apple platforms. Swift is an open source language that started within Apple. SwiftUI is a closed source UI framework developed by Apple to create apps. Swift is replacing Objective-C and SwiftUI is replacing UIKit. Be thankful that you are starting today instead of 2018.
+Apple is the creator of Xcode, the essential tool for developing apps across all Apple platforms. Swift, an open-source programming language initially developed by Apple, has become the standard for building modern apps. SwiftUI, a closed-source UI framework also developed by Apple, is the future of app development, gradually replacing the older UIKit framework. Be thankful that you’re entering this space now that it is a much more approachable space to be in than just a few years ago!
 
-Both Swift and SwiftUI are developing quickly but things are starting to slow down, especially with Swift. There are language features I use on a daily basis that didn't exist a few years ago. We are in a transition phase from Swift 5 to Swift 6 and I'd expect it's the last big change that we'll see for years. The big change is related to strict concurrency and it will break a lot of code; some Swift code may stay in Swift 5 language mode until the heat death of the universe. 
+Swift and SwiftUI have evolved rapidly, but we’re reaching a point where things are starting to stabilize—especially with Swift. The language continues to introduce new features, but the pace of change is slowing down. We’re currently in a transition from Swift 5 to Swift 6, with strict concurrency being the most significant update. This change is likely to be the last major shift for a while, but it will also break a lot of existing code. As a result, some projects may remain in Swift 5 mode until the heat death of the universe.
 
-Many developers complain about how SwiftUI is not completely ready for widespread use but I disagree with almost no exception. Yes, there are things that you can do in UIKit that you cannot do in SwiftUI but that gap is closing and one day in the far future (a decade?) UIKit will no longer be the preferred way to do anything. I think most of the complaints about SwiftUI come from people that learned the "old way" and don't understand the way to get things done in SwiftUI. Other complaints I think just come from the fact that people are frequently trying to do things that they maybe should just not do but instead of finding the path of least resistance by adopting natuve patterns, they persevere the hard way. Also, I know only the slightest about UIKit and to this day Objective-C looks completely foreign to me.
+While some developers argue that SwiftUI isn’t fully ready for widespread adoption, I strongly disagree—with almost no exceptions. Yes, there are still a few things that UIKit can do that SwiftUI can’t, but that gap is closing fast. Eventually (perhaps a decade from now), UIKit may no longer be the preferred tool for anything. The complaints about SwiftUI often come from developers who learned the “old way” and haven’t fully embraced the SwiftUI mindset. Other frustrations arise from trying to force SwiftUI to do things it wasn’t designed for, rather than following the natural, native patterns.
 
-In short: I can almost guarantee that anyone complaining about SwiftUI either don't understand SwiftUI, are doing things the hard way, or both. 
+Personally, I know very little about UIKit, and Objective-C still looks completely foreign to me. From my perspective, anyone complaining about SwiftUI is either not fully understanding it, trying to do things the hard way, or both.
+
+In short: Embrace SwiftUI. It’s the future, and with the right approach, it’s an incredibly powerful tool for building modern apps.
 
 ### Xcode
 
@@ -88,7 +92,7 @@ In short: I can almost guarantee that anyone complaining about SwiftUI either do
 	* Does not necessarily match file structure, but usually does
 * Preview
 	* Can be turned on and off
-	* Error messages almost helpful
+	* Error messages almost helpful (beware!)
 	* Preview macro
 * Simulator
 	* Differences from physical device
@@ -98,6 +102,7 @@ In short: I can almost guarantee that anyone complaining about SwiftUI either do
 * Console Output
 	* `print` of course
 	* Common to get lots of useless messages
+		* Worry more about IDE warnings and errors
 * Settings
 	* Accounts
 	* Locations
@@ -108,38 +113,71 @@ In short: I can almost guarantee that anyone complaining about SwiftUI either do
 * Component Library
 	* Configure views from side menu
 * Show some main views
+	* Text
+	* Image
+	* Button
+	* padding
+	* background
+	* overlay
+	* foreground style
+	* shapes
 
 ## Environment Setup
 
-Xcode
-Xcodes
-Apple Dev Account
+Accomplish these for the rest of the class. Feel free to help each other and ask questions. 
 
-## `git` and Github
+### Install These in Any Order
 
+Sub-tasks go after their parent task
 
+* Install [Xcodes](https://www.xcodes.app) App
+	* Install Xcode 15.4 (15F31d)
+	* or latest Beta via Xcodes
+* Install [Github Desktop](https://desktop.github.com/download/)
+* Install [SF Symbols](https://developer.apple.com/sf-symbols/)
+* Install [Homebrew](https://brew.sh)
+	* Install `git` with `brew install git`
 
-## Announce Assignments
+### Create Accounts in Any Order
+* Create [Apple Developer](https://developer.apple.com) Account (free version)
+* Create [GitHub](https://github.com) account 
+	* Join Github Classroom for [ATLS-4120 Fall 2024](https://classroom.github.com/classrooms/176847629-atls-4120-fall-2024)
+		* Might need to join [ATLS421 ](https://github.com/ATLS4120) Organization first 
+		* Might need invite to organization (Slack me your username)
 
+### After Creating GitHub Account
 
+* Follow the directions in "Try It Out!" in [Codecademy Git Setup](https://www.codecademy.com/article/git-setup) to make your first `commit` and `push`!
 
+## Assignments
 
+### Canvas Submission Tuesday, Sept 3 at 5pm
 
-"Set up the environment"
+Submit a screenshot of your new test repo (from "Try It Out!" above) to Canvas for the assignment Git First Push
+
+### Quiz Monday, Sept 9 at start of class
+
+Quiz on Swift basics based on the content from days 1-12 of the [100 Days of Swift](https://www.hackingwithswift.com/100) by Paul Hudson at Hacking with Swift. These are the topics (the day number is not important):
+  * Day 1 – variables, simple data types, and string interpolation
+  * Day 2 – arrays, dictionaries, sets, and enums
+  * Day 3 – operators and conditions
+  * Day 4 – loops, loops, and more loops
+  * Day 5 – functions, parameters, and errors
+  * Day 6 – closures part one
+  * Day 7 – closures part two
+  * Day 8 – structs, properties, and methods
+  * Day 9 – access control, static properties, and laziness
+  * Day 10 – classes and inheritance
+  * Day 11 – protocols, extensions, and protocol extensions
+  * Day 12 – optionals, unwrapping, and typecasting
+
 ## Swift
 
 [Swift.org](https://www.swift.org)
 [The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 The even have a nice little tutorial for [Build an iOS app with SwiftUI](https://www.swift.org/getting-started/swiftui/)
-
-- Open source language
 - Community
 - [Kodeco Style Guide](https://github.com/kodecocodes/swift-style-guide)
-- Basic types
-- Make a struct
-- Value Types
-- Reference Types
-- Protocols
 
 ## Swift and SwiftUI
 - SwiftUI
@@ -148,14 +186,7 @@ The even have a nice little tutorial for [Build an iOS app with SwiftUI](https:/
 	- Closed source from Apple
 	- Framework
 	- Show Example
-		- Text
-		- Image
-		- Button
-		- padding
-		- background
-		- overlay
-		- foreground style
-		- shapes
+
 
 [WWDC19 Introducing SF Symbols](https://developer.apple.com/videos/play/wwdc2019/206/)
 [WWDC21 SF Symbols in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10349/)
@@ -163,24 +194,8 @@ The even have a nice little tutorial for [Build an iOS app with SwiftUI](https:/
 
 - [WWCD24 XCode Essentials](https://developer.apple.com/videos/play/wwdc2024/10181/)
 - [Xcode Developer Documentation](https://developer.apple.com/documentation/xcode)
-- I will have Beta so you can use anything
-- The min is the current latest
-	- 15.4 as of July 23, 2024
-- Installation
-	- App Store
-	- Xcodes
-- New Project
-	- The famous Shift-Cmd-N
-	- iOS App
-	- Identifier
-- Branch Dropdown
-- Simulator
-	- Differences from physical device
-	- Not 100% necessary for iOS dev
-- Preview
-- Navigator
-- Source Control
-- Console Output
+
+
 - Settings
 	- Login
 	- Text Editing
@@ -188,19 +203,7 @@ The even have a nice little tutorial for [Build an iOS app with SwiftUI](https:/
 		- Including white-space only lines
 		- Re-indent on paste
 	- Ctrl-I to indent
-- Documentation
-- Component Library
-- Developer Account
 
-JetBrains Mono
-
-
-## Apple Developer Account
-
-## Github
-
-consider GH classroom
-issues workflow
 
 ## git
 Xcode, CLI, website
@@ -641,12 +644,6 @@ PRs
 - Sublime Text
 - Swiftformat
 - Swiftlint
-- SF Symbols
-
-Send in your github account for an invite to the classroom
-
-join link https://classroom.github.com/classrooms/176847629-atls-4120-fall-2024
-
 
 
 Basic views start on the page for the next class

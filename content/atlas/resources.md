@@ -37,3 +37,9 @@ weight: 300
 - Swift Book https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 	- A Swift Tour https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
 - Human Interface Guidelines
+https://www.objc.io/books/thinking-in-swiftui/
+be on the lookout for UI gen AI
+
+Pauls Unwrap app
+
+[Learn X in Y Minutes](https://learnxinyminutes.com/docs/swift/) where X = Swift

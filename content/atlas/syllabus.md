@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-draft: true
+draft: false
 weight: 5
 ---
 
