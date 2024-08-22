@@ -9,8 +9,8 @@ weight: 10
 * Personal Introductions and Syllabus
 * Intro Apple, Xcode, Swift, SwiftUI
 * Environment Setup
-* `git` and Github
 * Announce Assignments
+* (if time) `git` and Github
 
 ## Personal Introductions & Syllabus
 
@@ -121,6 +121,15 @@ In short: Embrace SwiftUI. It’s the future, and with the right approach, it’
 	* overlay
 	* foreground style
 	* shapes
+* Settings
+	* Login
+	* Text Editing
+		* Trim trailing whitespace
+		* Including white-space only lines
+		* Re-indent on paste
+	* Derived Data
+* Shortcuts
+	* Ctrl-I to indent
 
 ## Environment Setup
 
@@ -137,6 +146,7 @@ Sub-tasks go after their parent task
 * Install [SF Symbols](https://developer.apple.com/sf-symbols/)
 * Install [Homebrew](https://brew.sh)
 	* Install `git` with `brew install git`
+	* `git config --global core.ignorecase false`
 
 ### Create Accounts in Any Order
 * Create [Apple Developer](https://developer.apple.com) Account (free version)
@@ -171,479 +181,88 @@ Quiz on Swift basics based on the content from days 1-12 of the [100 Days of Swi
   * Day 11 – protocols, extensions, and protocol extensions
   * Day 12 – optionals, unwrapping, and typecasting
 
-## Swift
+## Extra Resources
 
-[Swift.org](https://www.swift.org)
-[The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
-The even have a nice little tutorial for [Build an iOS app with SwiftUI](https://www.swift.org/getting-started/swiftui/)
-- Community
-- [Kodeco Style Guide](https://github.com/kodecocodes/swift-style-guide)
+We may cover these in class. They may be part of future assignments. They might be what you're looking for to learn more.
 
-## Swift and SwiftUI
-- SwiftUI
-	- [WWDC20 Introduction to SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10119)
-	- [WWDC24 SwiftUI Essentials](https://developer.apple.com/videos/play/wwdc2024/10150/)
-	- Closed source from Apple
-	- Framework
-	- Show Example
+### Swift
 
+* [Swift.org](https://www.swift.org) offical home of the Swift programming language
+* [The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/) official+friendly overview of Swift
+* [Kodeco Style Guide](https://github.com/kodecocodes/swift-style-guide) the undisputed most popular Swift Style Guide
+
+### SwiftUI
+
+* [WWDC20 Introduction to SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10119)
+* [WWDC24 SwiftUI Essentials](https://developer.apple.com/videos/play/wwdc2024/10150/)
+* [Build an iOS app with SwiftUI](https://www.swift.org/getting-started/swiftui/) a very nice beginner tutorial from Swift.org
+
+### Xcode
+
+* [WWCD24 XCode Essentials](https://developer.apple.com/videos/play/wwdc2024/10181/)
+* [Xcode Developer Documentation](https://developer.apple.com/documentation/xcode)
+* [Source Control Management in Xcode](https://developer.apple.com/documentation/xcode/source-control-management), while it is possible to sufficiently do SCM with Xcode, it is rare to do it at all in industry; my coworkers look at me funny when I just switch branches in Xcode
+
+### SF Symbols
 
 [WWDC19 Introducing SF Symbols](https://developer.apple.com/videos/play/wwdc2019/206/)
 [WWDC21 SF Symbols in SwiftUI](https://developer.apple.com/videos/play/wwdc2021/10349/)
-## Xcode
 
-- [WWCD24 XCode Essentials](https://developer.apple.com/videos/play/wwdc2024/10181/)
-- [Xcode Developer Documentation](https://developer.apple.com/documentation/xcode)
-
-
-- Settings
-	- Login
-	- Text Editing
-		- Trim trailing whitespace
-		- Including white-space only lines
-		- Re-indent on paste
-	- Ctrl-I to indent
-
-
-## git
-Xcode, CLI, website
-
-Can sufficiently use version control from Xcode https://developer.apple.com/documentation/xcode/source-control-management
-
-But that does not appear to be the norm
-
-My coworkers are surprised to see me just switching branches in Xcode
-
-gitignore
-
-suggest SSH but that's left to reader https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui
-
-branch naming conventions (note about noninclusive language) https://itconnect.uw.edu/guides-by-topic/identity-diversity-inclusion//inclusive-language-guide/
-
-  
-
-https://git-scm.com
-
-  
-
-I've read that git comes with the mac developer tools download but I'd suggest just using the homebrew version
-
-https://learngitbranching.js.org
-
-https://brew.sh
-
-https://formulae.brew.sh/formula/git
-
-https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
-
-https://training.github.com/downloads/github-git-cheat-sheet.pdf
-
-https://www.codecademy.com/learn/learn-git
-
-https://www.pluralsight.com/courses/code-school-git-real
-
-  
-
-https://gist.github.com/subfuzion/db7f57fff2fb6998a16c
-
-  
-
-https://www.toptal.com/developers/gitignore
-
-https://www.toptal.com/developers/gitignore/api/xcode,macos,visualstudiocode
-
-https://www.toptal.com/developers/gitignore?templates=xcode,swift,macos,visualstudiocode,python,carthage,swiftpackagemanager,cocoapods
-
-initial git setup (username, password/auth, )
-
-ignore case false
-
-global gitignore
-
-check with `which git`
-
-success if you can pull and push
-
-  
-  
-  
-
-My workflow for personal projects
-
-- Do some small initial work locally
-
-- `git init` my project and `git commit --all -m "initial commit"`
-
-- Create a repo (repository) on Github
-
-- Copy directions from Github to link an existing repo (sets important settings that are so rare I don't have them memorized)
-
-- `git push`
-
-- Do work, create branches, commit often, push often
-
-- Create issues in my repo for automatic branch creation and issue tracking
-
-- when I merge and get conflicts I open Github Desktop and then use links in the app to open my text editor and manually resolved the merge conflicts. This won't be so bad for you but it's a nightmare in big projects.
-
-- Create a PR, self-review, squash merge, pull locally, merge to others
-
-  
-
-Recommended Tools
-
-- Visual Studio Code
-
-- Github Desktop
-
-  
-
-**Basic Git Commands**
-
-  
-
-• git init
-
-• git clone
-
-• git add
-
-• git commit
-
-• git status
-
-• git push
-
-• git pull
-
-• git fetch
-
-• git merge
-
-• git branch
-
-• git checkout (esp. for getting a file from another branch)
-
-  
-
-**Advanced Git Commands**
-
-  
-
-• git log
-
-• git diff
-
-• git reset
-
-• git revert
-
-• git stash
-
-• git remote
-
-• git tag
-
-• git rm
-
-  
-  
-
-**1. Basic Workflow**
-
-1. Initialize a repository:
-
-• git init
-
-2. Add files to the staging area:
-
-• git add .
-
-3. Commit changes:
-
-• git commit -m "Initial commit"
-
-4. Push changes to a remote repository:
-
-• git push origin main
-
-  
-
-```bash
-
-git init
-
-git add .
-
-git commit -m "Initial commit"
-
-git push
-
-```
-
-  
-
-**2. Cloning a Repository and Making Changes**
-
-  
-
-  
-
-1. Clone a repository:
-
-  
-
-• git clone https://github.com/user/repo.git
-
-  
-
-2. Navigate into the repository directory:
-
-  
-
-• cd repo
-
-  
-
-3. Create a new branch:
-
-  
-
-• git branch feature-branch
-
-  
-
-4. Switch to the new branch:
-
-  
-
-• git checkout feature-branch
-
-  
-
-5. Make changes and add them to staging:
-
-  
-
-• git add .
-
-  
-
-6. Commit the changes:
-
-  
-
-• git commit -m "Added new feature"
-
-  
-
-7. Push the changes to the remote repository:
-
-  
-
-• git push origin feature-branch
-
-  
-
-  
-
-**3. Branching and Merging**
-
-  
-
-  
-
-1. Create and switch to a new branch:
-
-  
-
-• git checkout -b new-feature
-
-  
-
-2. Make changes and commit them:
-
-  
-
-• git add .
-
-  
-
-• git commit -m "Develop new feature"
-
-  
-
-3. Switch back to the main branch:
-
-  
-
-• git checkout main
-
-  
-
-4. Merge the new branch into the main branch:
-
-  
-
-• git merge new-feature
-
-  
-
-5. Push the changes to the remote repository:
-
-  
-
-• git push origin main
-
-  
-
-  
-
-**4. Handling Merge Conflicts**
-
-  
-
-  
-
-1. Fetch and merge changes from the remote repository:
-
-  
-
-• git fetch origin
-
-  
-
-• git merge origin/main
-
-  
-
-2. If there are conflicts, open conflicting files and resolve them.
-
-  
-
-3. After resolving conflicts, add the resolved files:
-
-  
-
-• git add .
-
-  
-
-4. Commit the resolved changes:
-
-  
-
-• git commit -m "Resolved merge conflicts"
-
-  
-
-5. Push the changes to the remote repository:
-
-  
-
-• git push origin main
-
-  
-
-  
-
-**5. Using Stash to Save Work Temporarily**
-
-  
-
-  
-
-1. Stash the current changes:
-
-  
-
-• git stash
-
-  
-
-2. Apply the stashed changes later:
-
-  
-
-• git stash apply
-
-  
-
-3. List all stashes:
-
-  
-
-• git stash list
-
-  
-
-4. Drop a stash:
-
-  
-
-• git stash drop
-
-  
-
-  
-
-**6. Reverting Changes**
-
-  
-
-1. Revert a specific commit:
-
-  
-
-• git revert <commit-hash>
-
-  
-
-2. Reset to a previous commit (destructive):
-
-  
-
-• git reset --hard <commit-hash>
-
-  
-  
-
-my list of commands
-
-  
-
-`init`
-
-`switch`
-
-`branch`
-
-`merge`
-
-`checkout`
-
-`diff`
-
-`log`
-
-PRs
-
-`commit`
-
-`revert`
-
-## Other Tools
-- [Xcodes](https://www.xcodes.app)
+### Git
+
+* [GitHub `git` Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+* [git-scm.com](https://git-scm.com) the definitive `git` resource (SCM is "Source Code Management")
+
+### Gitignore Files and Setup
+* [Set up gitignore gist](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c)
+* [Gitignore generator](https://www.toptal.com/developers/gitignore) from TopTal
+* [My Gitignore Template](https://www.toptal.com/developers/gitignore?templates=xcode,swift,macos,visualstudiocode,python,carthage,swiftpackagemanager,cocoapods) for `xcode,swift,macos,visualstudiocode,python,carthage,swiftpackagemanager,cocoapods`
+* [Sufficient gitignore template](https://www.toptal.com/developers/gitignore/api/xcode,macos,visualstudiocode) for `xcode,macos,visualstudiocode`
+
+### Git Instruction
+
+* https://learngitbranching.js.org
+* https://www.codecademy.com/learn/learn-git
+* https://www.pluralsight.com/courses/code-school-git-real
+
+### Git Commands
+
+**Basic**
+* `git init`
+* `git clone`
+* `git add`
+* `git commit`
+* `git status`
+* `git push`
+* `git pull`
+* `git fetch`
+* `git merge`
+* `git branch`
+
+**Intermediate**
+* `git checkout` (esp. for getting a file from another branch)
+* `git log`
+* `git diff`
+* `git reset`
+* `git revert`
+* `git stash`
+* `git remote`
+* `git tag`
+* `git rm` with `--cached`
+
+### More Git
+
+* SSH preferred to HTTPS but that is left to the reader https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui
+* Branch Naming and Considerations on Noninclusive Language https://itconnect.uw.edu/guides-by-topic/identity-diversity-inclusion//inclusive-language-guide/
+
+### Other Tools
 - [Obsidian](https://obsidian.md)
-- [Homebrew](https://brew.sh)
-- Copilot
+- Copilot (via VS Code)
 	- Autocomplete
 	- Language questions
 	- Bash scripts
+	- Testing
 - Visual Studio Code
 - Sublime Text
 - Swiftformat
 - Swiftlint
-
-
-Basic views start on the page for the next class
