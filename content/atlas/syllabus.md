@@ -75,7 +75,7 @@ Suggestions:
 
 Consider:
 * AI only knows SwiftUI at an OK level, it's going to be wrong at times
-* Swift Intelligence (similar to Copilot) will soon be generally available to all Apple developers and it wil be trained on proprietary information from Appl's framework code.
+* Swift Intelligence (similar to Copilot) will soon be generally available to all Apple developers and it wil be trained on proprietary information from Apple's framework code.
 * Future success as a developer probably means working well with AI
     * Cal Newport's book *Deep Work*: "In this new economy, three groups will have a particular advantage: (1) those who can **work well and creatively with intelligent machines**, (2) those who are the best at what they do, and (3) those with access to capital. (p. 28)
 
@@ -93,7 +93,7 @@ Do not not use outside coding tutorials as your assignment submissions.
 
 This is the tentative list of assignments and points for each. Weighting is determined only by the points available for each assignment. There is no category weighting. 
 
-You can expect about one assignment per week. For now there are 12 scored assignments over our 14 weeks of class.
+*DISCUSS THIS* You can expect about one assignment per week. For now there are 12 scored assignments over our 14 weeks of class.
 
 ### Assignments
 
@@ -106,7 +106,7 @@ You should expect to spend twice as much time working outside of class as you sp
 | Assignment              | Points | Description                           | Due Date        |
 | ----------------------- | ------ | ------------------------------------- | --------------- |
 | Quizzes (2)             | 20     | Two quizzes, 10 points each           | Various, TBD             |
-| Homeworks (6)           | 60     | Six homework assignments, 10 points each | Various, TBD |
+| Homeworks (6) *DISCUSS*   | 60     | Six homework assignments, 10 points each | Various, TBD |
 | Project 1               | 20     | Your Dev Story App                    | Week 3          |
 | Project 2               | 30     | Calculation App                       | Week 6          |
 | Project 3               | 40     | API-Based App                         | Week 10         |
@@ -122,6 +122,8 @@ I can be fairly flexible on due dates in advance but I will be very inflexible w
 * Up to 24 hours late: reduction of 20% of the possible points
 * Up to 48 hours late: reduction of 40% of the possible points
 * After 48 hours: assignment will not be accepted
+
+Reducing the score relative to the possible points instead of the earned points means that if work is turned in late, then doing it well means losing a smaller percentage from the work you completed. 
 
 ```
 Example: Rubric score of 85/100 point turned in 1 hour late. 
