@@ -161,10 +161,6 @@ Sub-tasks go after their parent task
 
 ## Assignments
 
-### Canvas Submission Tuesday, Sept 3 at 5pm
-
-Submit a screenshot of your new test repo (from "Try It Out!" above) to Canvas for the assignment Git First Push
-
 ### Quiz Monday, Sept 9 at start of class
 
 Quiz on Swift basics based on the content from days 1-12 of the [100 Days of Swift](https://www.hackingwithswift.com/100) by Paul Hudson at Hacking with Swift. These are the topics (the day number is not important):

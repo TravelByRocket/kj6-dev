@@ -93,8 +93,6 @@ Do not not use outside coding tutorials as your assignment submissions.
 
 This is the tentative list of assignments and points for each. Weighting is determined only by the points available for each assignment. There is no category weighting. 
 
-*DISCUSS THIS* You can expect about one assignment per week. For now there are 12 scored assignments over our 14 weeks of class.
-
 ### Assignments
 
 Homework and projects will be submitted through GitHub Classroom. 
@@ -105,15 +103,11 @@ You should expect to spend twice as much time working outside of class as you sp
 
 | Assignment              | Points | Description                           | Due Date        |
 | ----------------------- | ------ | ------------------------------------- | --------------- |
-| Quizzes (2)             | 20     | Two quizzes, 10 points each           | Various, TBD             |
-| Homeworks (6) *DISCUSS*   | 60     | Six homework assignments, 10 points each | Various, TBD |
+| Quizzes (2)             | 20     | Two quizzes, 10 points each           | Various, TBD    |
 | Project 1               | 20     | Your Dev Story App                    | Week 3          |
 | Project 2               | 30     | Calculation App                       | Week 6          |
 | Project 3               | 40     | API-Based App                         | Week 10         |
 | Project 4               | 50     | Framework-Based App                   | Week 14         |
-| **Under Consideration** |        |                                       |                 |
-| Project A               | ??     | UI Exploration (Behance)              | Week ??         |
-| Project B               | ??     | Git and Xcode Intro                   | Week ??         |
 
 ### Late Policy
 
@@ -137,7 +131,6 @@ StartingScore - PenaltyPoints = FinalScore
 
 Final score 65/100
 ```
-
 
 ## Schedule/Outline
 
