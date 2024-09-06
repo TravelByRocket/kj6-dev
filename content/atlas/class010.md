@@ -262,3 +262,14 @@ We may cover these in class. They may be part of future assignments. They might 
 - Sublime Text
 - Swiftformat
 - Swiftlint
+
+---
+
+Polish Notes
+
+* Demo voice control and VoiceOver
+* Clarify what is meant by "Apple libraries"
+* First GH step for classroom is joing the organization, but can it be done in bulk or by link?
+* Xcodes will look like it is working but will fail if you sign in with apple account that is not set up as a developer account
+* `git` skills and GitHub account can be assumed
+* There is a VS Code plugin to write in Swift, and maybe one that has SwiftUI autocomplete

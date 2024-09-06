@@ -11,10 +11,12 @@ weight: 300
 	- Beginner [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui)
 	- Intermediate [SwiftUI Concepts](https://developer.apple.com/tutorials/swiftui-concepts)
 	- Advanced [App Dev Training - SwiftUI Essentials](https://developer.apple.com/tutorials/app-dev-training/#swiftui-essentials)
+	- [Develop in Swift: Tutorials](https://developer.apple.com/tutorials/develop-in-swift) goes through several smaller tutorials
 	- [Sample Apps](https://developer.apple.com/tutorials/sample-apps/)
-	- Beginner[Swift Playgrounds](https://www.apple.com/swift/playgrounds/)
 	- WWDC
 	- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
+	- [App Design Workbook](https://www.apple.com/au/education/docs/app-design-workbook-AU.pdf)
+	- [App Showcase Guide](https://www.apple.com/education/docs/app-showcase-guide.pdf)
 - Bloggers
 	- John Sundell [Swift by Sundell](https://www.swiftbysundell.com/)
 	- Majid Jabrayilov [Swift with Majid](https://swiftwithmajid.com/)
