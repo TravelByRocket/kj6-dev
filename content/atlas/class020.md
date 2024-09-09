@@ -1,6 +1,6 @@
 ---
 title: "C2W3 Sep 9"
-draft: true
+draft: false
 weight: 20
 ---
 
