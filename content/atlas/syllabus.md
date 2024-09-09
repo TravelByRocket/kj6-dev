@@ -19,7 +19,7 @@ You can send me a direct message for anything that is not applicable for others 
 
 See my profile on Slack for my email address. 
 
-Non-general questions and communuciation that is not relevant to others in the class can be sent to me through a direct message on Slack or by email. 
+Non-general questions and communication that is not relevant to others in the class can be sent to me through a direct message on Slack or by email. 
 
 ### Canvas
 
@@ -33,13 +33,13 @@ Official announcement will come through Canvas, so make sure you have notificati
 
 I'm open to finding other days or times if these conflict with your schedule.
 
-This is also an open time for you to bring disucssion ideas, career questions, or get general feedback. You are never obligated to attend, but I would think that if you don't attend at least a couple of times in the semester then you will have passed up an opportunity for advancing your knowledge, perspective, and career. 
+This is also an open time for you to bring discussion ideas, career questions, or get general feedback. You are never obligated to attend, but I would think that if you don't attend at least a couple of times in the semester then you will have passed up an opportunity for advancing your knowledge, perspective, and career. 
 
 ## System Requirements
 
 ### macOS
 
-You MUST have access to a computer running macOS Ventura 13.5 (July 2023) or later. The OS names after Ventura are Sonoma (September 2023) and Sequioa (currently Beta, full release expected in September 2024).
+You MUST have access to a computer running macOS Ventura 13.5 (July 2023) or later. The OS names after Ventura are Sonoma (September 2023) and Sequoia (currently Beta, full release expected in September 2024).
 
 I have heard mixed responses about whether there may be loaner laptops through ATLAS, so that will be up to you to find out. It might also work to use a mac in the computer lab.
 
@@ -47,7 +47,7 @@ I have heard mixed responses about whether there may be loaner laptops through A
 
 Additionally, you MUST be able to install Xcode 15 or 16 on the computer that you will use. Xcode 15.4 was released in May 2025 and it is the latest release as of 11 August 2024. Xcode 16 is currently on its 5th beta release, with its expected final release in September 2024. 
 
-There are a few different ways to get Xcode, and we will cover that in class, but if you have a macOS version listed above and you have permision to install apps on your device, then you should have everything you need. I would generally recommend that you use the latest stable release (15.4 right now) but I am always running the latest beta on my machine so you may choose yourself between 15.4 or 16.0. 
+There are a few different ways to get Xcode, and we will cover that in class, but if you have a macOS version listed above and you have permission to install apps on your device, then you should have everything you need. I would generally recommend that you use the latest stable release (15.4 right now) but I am always running the latest beta on my machine so you may choose yourself between 15.4 or 16.0. 
 
 ## Original Work
 
@@ -164,7 +164,7 @@ This course counts as an elective toward the Digital Humanities Graduate Certifi
 
 ---
 
-**Pitching Your Poject**
+**Pitching Your Project**
 
 Try this prompt:
 > For [target audience], [app name]  [solves a specific problem or meets a specific need] by [key feature or unique selling point].

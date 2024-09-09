@@ -1,6 +1,7 @@
 ---
 title: "X: September 2"
-draft: true
+draft: false
 weight: 15
 ---
+
 No Class

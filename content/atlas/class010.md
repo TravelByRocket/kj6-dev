@@ -183,7 +183,7 @@ We may cover these in class. They may be part of future assignments. They might 
 
 ### Swift
 
-* [Swift.org](https://www.swift.org) offical home of the Swift programming language
+* [Swift.org](https://www.swift.org) official home of the Swift programming language
 * [The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/) official+friendly overview of Swift
 * [Kodeco Style Guide](https://github.com/kodecocodes/swift-style-guide) the undisputed most popular Swift Style Guide
 
@@ -195,7 +195,7 @@ We may cover these in class. They may be part of future assignments. They might 
 
 ### Xcode
 
-* [WWCD24 XCode Essentials](https://developer.apple.com/videos/play/wwdc2024/10181/)
+* [WWDC24 XCode Essentials](https://developer.apple.com/videos/play/wwdc2024/10181/)
 * [Xcode Developer Documentation](https://developer.apple.com/documentation/xcode)
 * [Source Control Management in Xcode](https://developer.apple.com/documentation/xcode/source-control-management), while it is possible to sufficiently do SCM with Xcode, it is rare to do it at all in industry; my coworkers look at me funny when I just switch branches in Xcode
 
