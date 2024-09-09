@@ -21,9 +21,23 @@ Container Views, Shapes and Styling
 
 # Shapes and Styling
 
+## Shapes
+
+standard ones: rectangle, circle, rounder rectangle...
+mask
+how to make custom ones (maybe a later class?)
+
   
 
 - Shapes (Rectangle, Circle, etc.)
 
 - Gradient
 
+More Text:
+format
+formatter
+timeinterval
+
+issues with animations adding/removing text
+
+SF Symbols in depth

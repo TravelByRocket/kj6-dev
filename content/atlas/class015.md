@@ -1,5 +1,5 @@
 ---
-title: "X: September 2"
+title: "x W2 Sep 2"
 draft: false
 weight: 15
 ---

@@ -104,10 +104,10 @@ You should expect to spend twice as much time working outside of class as you sp
 | Assignment              | Points | Description                           | Due Date        |
 | ----------------------- | ------ | ------------------------------------- | --------------- |
 | Quizzes (2)             | 20     | Two quizzes, 10 points each           | Various, TBD    |
-| Project 1               | 20     | Your Dev Story App                    | Week 3          |
-| Project 2               | 30     | Calculation App                       | Week 6          |
-| Project 3               | 40     | API-Based App                         | Week 10         |
-| Project 4               | 50     | Framework-Based App                   | Week 14         |
+| Project 1               | 20     | Your Dev Story App                    | Class ~3~ 4      |
+| Project 2               | 30     | Calculation App                       | Class 6          |
+| Project 3               | 40     | API-Based App                         | Class 10         |
+| Project 4               | 50     | Framework-Based App                   | Class 14         |
 
 ### Late Policy
 
