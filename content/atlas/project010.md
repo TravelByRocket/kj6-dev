@@ -14,3 +14,4 @@ weight: 210
     * Details TBA
 * C5W6 Sep 30 (10 Points): Due on GitHub
     * Details TBA
+    * 750+ words

@@ -198,3 +198,20 @@ show/hide indicators
 beware padding outside of ScrollView
 
 Some say there should always be a ScrollView or an options for ScrollView for a11y
+
+---
+
+Polish Notes
+
+* Got down to only "Multiline Text Alignment" about halfway through
+* Students and trouble with HwS assignment, especially 2nd half because concepts were new
+* Despite great challenges, I received no messages indicating this was the case
+* The quiz I came up with was much too challenging 
+* Having the examples already written up in Xcode made the pace good
+* Student pointed out that `Group` is like `<div>`
+* Found that strings saved in variable do not accept markdown
+* Needed to go through new project creation steps again
+* Needed to explain organization identifier again, it has been quite confusing
+* Glossed too quickly over creating new files and missed naming convention
+* A list of common troubleshooting steps could be good, like Clean Build Folder
+* Students seem OK with lecture length of 90+ minutes but we agree 2x/week would help for troubleshooting

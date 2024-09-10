@@ -1,8 +1,9 @@
 ---
 title: Resources
-draft: true
+draft: false
 weight: 300
 ---
+
 - [Hacking with Swift](https://www.hackingwithswift.com/)
 	- [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 	- [100 Days of Swift](https://www.hackingwithswift.com/100/swift)
@@ -38,10 +39,8 @@ weight: 300
 	Test-Driven Development in Swift
 - Swift Book https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 	- A Swift Tour https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
-- Human Interface Guidelines
-https://www.objc.io/books/thinking-in-swiftui/
-be on the lookout for UI gen AI
-
-Pauls Unwrap app
-
-[Learn X in Y Minutes](https://learnxinyminutes.com/docs/swift/) where X = Swift
+- Apple's [titleHuman Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
+- [Thinking in SwiftUI](https://www.objc.io/books/thinking-in-swiftui/) book
+- Let me know if you find AI that can generate UI
+- Paul Hudson's app [Unwrap](https://www.hackingwithswift.com/unwrap) to practice Swift knowledge on your phone.
+- [Learn X in Y Minutes](https://learnxinyminutes.com/docs/swift/) "where X = Swift"
