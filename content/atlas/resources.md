@@ -39,7 +39,6 @@ weight: 300
 	Test-Driven Development in Swift
 - Swift Book https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 	- A Swift Tour https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour
-- Apple's [titleHuman Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
 - [Thinking in SwiftUI](https://www.objc.io/books/thinking-in-swiftui/) book
 - Let me know if you find AI that can generate UI
 - Paul Hudson's app [Unwrap](https://www.hackingwithswift.com/unwrap) to practice Swift knowledge on your phone.
