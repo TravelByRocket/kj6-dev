@@ -30,6 +30,9 @@ weight: 300
 - Kodeco style guide
 - Boston College course https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe
 - https://roadmap.sh/ios
+- https://roadmap.sh/git-github
+- https://roadmap.sh/ux-design
+
 - SwiftUI Companion
 - A Best-in-Class iOS App Book
 - APress books Available through CU Libray
@@ -43,3 +46,6 @@ weight: 300
 - Let me know if you find AI that can generate UI
 - Paul Hudson's app [Unwrap](https://www.hackingwithswift.com/unwrap) to practice Swift knowledge on your phone.
 - [Learn X in Y Minutes](https://learnxinyminutes.com/docs/swift/) "where X = Swift"
+- [Gosh Darn Format Style](https://goshdarnformatstyle.com) has extensive (possibly comprehensive) documentation on format styles
+- [Swift Student Challenge](https://developer.apple.com/swift-student-challenge/) runs each year around WWDC (June) 
+- [iOS Dev Happy Hour](https://www.iosdevhappyhour.com)

@@ -11,7 +11,9 @@ weight: 210
     * 6+ Layouts Views (3+ `VStack`, 2+ `HStack` and 1+ `ZStack`)
     * Long strings stored in `enum Constants` (never source code lines over 120 characters)
 * C4W5 Sep 23 (5 Points): Interactive Views and Navigation
-    * Details TBA
+    * Submit through GitHub Classroom
 * C5W6 Sep 30 (10 Points): Due on GitHub
     * Details TBA
     * 750+ words
+    * Two data structures
+    

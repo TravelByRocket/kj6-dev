@@ -215,3 +215,6 @@ Polish Notes
 * Glossed too quickly over creating new files and missed naming convention
 * A list of common troubleshooting steps could be good, like Clean Build Folder
 * Students seem OK with lecture length of 90+ minutes but we agree 2x/week would help for troubleshooting
+* I did explain autocomplete and a preview of going to definition but should make notes for this
+* Showed a `private enum Constants` with `static var myString: String {...}` and should add one for text too
+* Showed an extension on String/Text to contain just a space
