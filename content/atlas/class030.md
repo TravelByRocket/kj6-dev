@@ -4,112 +4,74 @@ draft: true
 weight: 30
 ---
 
-iOS Dev Happy Hour this Saturday
+* [iOS Dev Happy Hour](https://www.iosdevhappyhour.com) this Saturday 
+* Videos are up for 2nd half of last week's notes (the parts I planned to cover but did not get to). Consider them part of this week's material. 
+* [Join the GH Classroom](https://classroom.github.com/classrooms/176847629-atls-4120-fall-2024)
+* [Accept the first project assignment](https://classroom.github.com/a/3eDWASO_)
+* Today will focus on project time and ad-hoc code review
+* Nice work finding and using NavigationStack, NavigationLink, `@State`, and more 👏
 
-Finish last class from line limit to end
+## Layout Views
 
-Interactive Views (part 2), Layout Views
-
-interactive views part 2
-layout views
-
-# Layout Views
-
-  
+### Stack Basics
 
 - VStack
-
 - HStack
-
-- ZStack
-
 - Spacer
-
 - Divider
 
-- GeometryReader
+{{< liteyoutube "5FH80M6ljHU" >}}
 
-- Group
+### Background and Overlay
 
+{{< liteyoutube "zWAY6Xe4ckI" >}}
 
+### ZStack
 
-# Basic Views
+* Will the the size of its largest view
+* First view in the stack is at the bottom and successive views go over
+* Nine typical alignments but even more exists https://developer.apple.com/documentation/swiftui/alignment
 
-- Light/Dark Mode
+### ScrollView
 
-- AccentColor
+* Beware adding padding to ScrollView itself, will cause scroll indicator to be strangely inset
+* ScrollView will only be the width of its widest child view unless you expand it
+* See in the API that you can hide the scroll indicators
+* Try making a large HStack and place it in a ScrollView that scrolls horizontally
 
-- Tint
+### List and Form
 
-# Styling Modifiers
+* https://developer.apple.com/documentation/swiftui/list
+* Try out `listStyle`
+* https://developer.apple.com/documentation/swiftui/form
 
-- cornerRadius
+### NavigationStack and NavigationLink
 
+https://developer.apple.com/documentation/swiftui/navigationstack
+https://developer.apple.com/documentation/swiftui/navigationlink
 
-## Shadow
+can ignore `.navigationDestination` for now
 
-It exists, don't use it IMO, can make overlaps strange, why use skeuomorphism? 
+### TabView
 
-- Get an explanation of how the layout system works at a high level
-- Stack views and similar
-	- ScrollView
-	- List/Form
-	- ForEach
-- NavigationStack, TabView, sheet
+https://developer.apple.com/documentation/swiftui/tabview
+https://developer.apple.com/documentation/swiftui/tabviewstyle
 
-- Data
-	- State, Binding, SwiftData, 
-	- TextField, Toggle, Picker
+### Presenting a Sheet
 
+Activate with a Button or Toggle (See below)
 
-## Frame
+https://developer.apple.com/documentation/swiftui/view/sheet(ispresented:ondismiss:content:)
 
-CGFloat.infinity
+## Interactive Views
 
+### Toggle
 
-much more complex stuff perhaps in a later class or look it up yourself
+https://developer.apple.com/documentation/swiftui/toggle
 
----
+### Button
 
+We've used this a bit in examples already. Make your own that changes a property of your view. Use the `@State` property wrapper for the thing you are going to change. There are a few built-in button styles to try too. The action can use trailing closure syntax.
 
-
-# TBD
-
-constants enum
-
-# Interactive Views
-
-
-## Button
-
-button styles
-custom button styles (but why?)
-	pressed state
-
-@State variables (more on this later)
-@Binding
-trailing closure syntax
-passing functions as arguments
-passing view producing closures
-views blocking hits
-disable hit testing
-buttons in buttons
-vs onTapGesture vs onLongTapGesture
-Common to have strange non-system behavior with custom gestures
-min tap target
-considering contentshape with custom shape that has minimum sizes
-
-
-- Toggle
-
-- Slider
-
-- Stepper
-
-- TextField
-
-- SecureField
-
-Some modifiers only work on text, some modifiers return Text while some review `some View`
-
-corner radius
+https://developer.apple.com/documentation/swiftui/state
+https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-state-property-wrapper

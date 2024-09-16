@@ -35,7 +35,7 @@ weight: 300
 
 - SwiftUI Companion
 - A Best-in-Class iOS App Book
-- APress books Available through CU Libray
+- APress books Available through CU Library
 	- Beginning iPhone Development with SwiftUI: Exploring the iOS SDK Seventh edition (June 23, 2023) https://www.amazon.com/Beginning-iPhone-Development-SwiftUI-Exploring/dp/1484295404
 	- Swift 5 for Absolute Beginners: Learn to Develop Apps for iOS https://www.amazon.com/Swift-Absolute-Beginners-Learn-Develop/dp/1484248678/
 	- Developing Inclusive Mobile Apps
