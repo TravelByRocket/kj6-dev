@@ -49,3 +49,4 @@ weight: 300
 - [Gosh Darn Format Style](https://goshdarnformatstyle.com) has extensive (possibly comprehensive) documentation on format styles
 - [Swift Student Challenge](https://developer.apple.com/swift-student-challenge/) runs each year around WWDC (June) 
 - [iOS Dev Happy Hour](https://www.iosdevhappyhour.com)
+- https://cupcakeipsum.com/

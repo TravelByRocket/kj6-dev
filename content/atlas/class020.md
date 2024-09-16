@@ -54,6 +54,8 @@ Beware that when the string is across multiple lines then the `Text` view will s
 
 ### Line Limit
 
+> Example: `LineLimit.swift`
+
 `.lineLimit(myLineCount)` will do exactly what you'd expect when you pass an `Int` argument. If you pass `nil` then it will take as many lines as it needs. There could be cases where long `Text` views will truncate even if they seem to have enough room and you can prevent that by passing `nil`.
 
 Note that passing `0` would be a nonsense value but it will act like `1`. Let me know if you are able to find some other behavior with this.
@@ -62,11 +64,15 @@ There is an optional `reservesSpace` parameter that I am happy to see but haven'
 
 There is a version of `lineLimit` that takes a range of values, such as `3 ... 5`, `3...`, or `...5`. This is an even more flexible way (when needed) of reserving space and/or limiting the lines. I've never used this or can think of a time when I would have, but here it is!
 
+{{< liteyoutube "ZZMAksiJQHo" >}}
+
 ### Font
 
 > Doc: https://developer.apple.com/documentation/swiftui/font
 >
 > HIG: https://developer.apple.com/design/human-interface-guidelines/typography#Specifications
+>
+> Example: `FontPage.swift`
 
 * `.font` body, caption, and title, for example
 	* see `Font` documentation, above
@@ -79,11 +85,15 @@ There is a version of `lineLimit` that takes a range of values, such as `3 ... 5
 
 All of this is done by Apple and it is remarkably responsive in ways that we could not reasonably perceive and might not be able to replicate with custom fonts. Using custom fonts can definitely be a fun way to enhance the look of your app but they can be a pitfall too. I would recommend not using a custom font in almost any situation. I think if you want to use a custom font in limited situations, like titles, then that seems like a safe and rather uncomplicated direction you could go. Even though I can't find the source, I believe that  [Marco Arment](https://marco.org) used to have a custom font for [Overcast](https://overcast.fm) but eventually let it go in favor of how robust Apple's fonts are. Tools in SwiftUI might be better now to make it work but I know Apple has it figured out and I don't know if I could, so I'll leave it to them.
 
+{{< liteyoutube "UkS2C1FP73M" >}}
+
 ### Dynamic Type
 
 > Doc: https://developer.apple.com/documentation/SwiftUI/DynamicTypeSize
 >
 > Field Guide: https://www.swiftuifieldguide.com/layout/dynamic-type/
+>
+> Example: `DynamicType.swift`
 
 Sizes run from `.xSmall` through `.xxxLarge` and the default is `.large` (this is noted in HIG). Can change this in Preview and can have Preview that shows all options. There is a modifier for setting the dynamic type size and one for limiting the range. I can only discourage you from limiting the maximum size of the dynamic type, otherwise it can't be utilized for what it was intended. 
 
@@ -101,6 +111,8 @@ Show how to change this in Settings (device and Simulator) or with Control Cente
 
 In order to accommodate a wide range of sizes, consider using Text with `ScrollView` and/or `ViewThatFits` (covered later in the course).
 
+{{< liteyoutube "jTNEOVkmsdU" >}}
+
 ## Text Baseline
 
 > Example: `StringInterpolation.swift`
@@ -111,6 +123,8 @@ Text has a baseline that is at the bottom of where most letters sit. This can be
 
 It is possible to mix other data types into a `String` by using string interpolation. This is done by placing the values you want to "interpolate" inside of a `\()`, such as `"Variable Value: \(myVar)"`. For example `"\(3)"` and `String(3)` (even `3.description`) will produce the same value. You can put an `Image` in the string interpolation but you should do that interpolation inside of `Text` view only.
 
+{{< liteyoutube "CHpAAPtT38I" >}}
+
 ## Image
 
 > Example: `ImagePage.swift`
@@ -118,6 +132,8 @@ It is possible to mix other data types into a `String` by using string interpola
 At its simplest, you can create an `Image` view with `Image(systemName: "swift")`. There are also many modifiers you will likely use with `Image` to get it to do what you had in mind. Remember, you can use the SF Symbols app to find all of the symbol names that you can use.
 
 If you add the `.resizable` modifier on its own then the image will scale independently on both axes to fill the space it is given. It is exceptionally common to also add `.scaledToFit()` (stays completely within frame bounds) or sometimes `.scaledToFill()` (scales until all sides are at least equal to the container size). You will typically control the size of images by using the `.frame` modifier. Occasionally you will want to specify a type of scaling along with an aspect ratio instead of specific dimensions and in that case you can use `.aspectRatio`.
+
+{{< liteyoutube "nrZzq5NTZ0c" >}}
 
 ### For Future Reference
 
@@ -129,11 +145,15 @@ Later in the course: `ASyncImage`, Assets, other file formats (PDF, SVG, PNG, et
 
 A `Label` pairs an icon and text together in one view and it is often with with `Button` views but also on its own. SwiftUI is very adaptive with this and can adjust for Right-to-Left languages, device used, and manually specifying styles. Using it can be as easy as `Label("Easy Button", systemImage: "button.programmable.square")`. You can use the `.labelStyle` modifier if you have a particular look in mind, otherwise SwiftUI will pick one automatically based on the context. You also have the ability to create your own custom button styles but that will be covered later in the course. 
 
+{{< liteyoutube "cHB9VMde3uY" >}}
+
 ## Padding
 
 Add space around your views with the `.padding` modifier. 
 
 Beware: using negative values in a padding modifier is almost always a mistake. 
+
+{{< liteyoutube "8MLP095KhMM" >}}
 
 ## Colors
 
@@ -142,6 +162,8 @@ There are many system-provided colors, like you have seen already in the example
 You will frequently use `.opacity` with a `Color` but you can apply it to all views. 
 
 If you want to color a view, use the `.foregroundStyle` modifier. 
+
+{{< liteyoutube "2pufjNEXLmQ" >}}
 
 ## Background and Overlay
 
@@ -174,7 +196,7 @@ HStack {
 
 ```
 
-Spacer can sometimes be tricky because it can hav a minimum length and then the stack can have a default spacing, but we can get into all of those details another time. 
+Spacer can sometimes be tricky because it can have a minimum length and then the stack can have a default spacing, but we can get into all of those details another time. 
 
 ### ZStack
 
@@ -182,22 +204,17 @@ Use this if you want each view to have its own dimension but otherwise you proba
 
 `ZStack` has 8 options for alignment, one for each corner and one for each side.
 
-Beware: `ZStack` is sometimes used in a really hacky way where either something is bring done that shouldn't be (e.g., not a native sort of behavior) or it could be done in straightforward that you may not know about. \
+Beware: `ZStack` is sometimes used in a really hacky way where either something is bring done that shouldn't be (e.g., not a native sort of behavior) or it could be done in straightforward that you may not know about.
 
-has 8 alignment options
-does each view get its own bounds or do they all just get the greater of the width and the greater of the height
-front to back or back to font?
-almost always better to use an overlay or a background because it's at least more direct semantically (i.e. a time where you want the frames the same size) or it is a smell of trying to do something in a hacky way where there is either a better alternative or a good reason to not do it at all. 
-
+It's almost always better to use an overlay or a background because it's at least more direct semantically or it is a smell of trying to do something in a hacky way where there is either a better alternative or a good reason to not do it at all. 
 
 ## ScrollView
 
-use horizontal axis with HStack
-new scroll/bounce behaviors
-show/hide indicators
-beware padding outside of ScrollView
-
-Some say there should always be a ScrollView or an options for ScrollView for a11y
+* Horizontal axis with `HStack`
+* New scroll/bounce behaviors
+* Show/hide indicators
+* Beware padding on outside of `ScrollView`
+* Some say there should always be a `ScrollView` or an options for `ScrollView` for accessibility
 
 ---
 
@@ -218,3 +235,4 @@ Polish Notes
 * I did explain autocomplete and a preview of going to definition but should make notes for this
 * Showed a `private enum Constants` with `static var myString: String {...}` and should add one for text too
 * Showed an extension on String/Text to contain just a space
+* In line limit video fix the example of `.lineLimit(nil)`

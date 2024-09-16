@@ -6,6 +6,8 @@ weight: 30
 
 iOS Dev Happy Hour this Saturday
 
+Finish last class from line limit to end
+
 Interactive Views (part 2), Layout Views
 
 interactive views part 2
