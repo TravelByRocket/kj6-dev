@@ -50,3 +50,5 @@ weight: 300
 - [Swift Student Challenge](https://developer.apple.com/swift-student-challenge/) runs each year around WWDC (June) 
 - [iOS Dev Happy Hour](https://www.iosdevhappyhour.com)
 - https://cupcakeipsum.com/
+- https://developer.apple.com/fonts/system-fonts/ use as `.custom("AmericanTypewriter"...`
+- https://javarevisited.blogspot.com/2022/05/ios-developer-roadmap.html

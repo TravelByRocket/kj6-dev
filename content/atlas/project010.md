@@ -16,4 +16,30 @@ weight: 210
     * Details TBA
     * 750+ words
     * Two data structures
-    
+
+
+## Checkpoint 1 Feedback
+
+* Each page needs to be in its own file so each one has its own preview
+* Create projects with NO testing and NO storage
+* CamelCaseNameApp no punctuation or spaces, same with views
+* Every page and view should be descriptively named
+* Show how to add files without making references that won't commit. Before submitting, try moving your project folder and see if it still works
+* I want to see a commit history
+* We need to use gitignore
+* Show how to Nuke the project and bring over files
+* We need to do some refactoring where we reuse our code
+* If your content doesn't fit, use a ScrollView, please
+* Future comments will come in a commit on a branch in the project
+* Do not use ZIP file. Need to show proper structure.
+* Use padding or spacing instead of `\n` or `""`
+* Think about usability. When someone get to the end of your app, what about all those stacked views?
+* Best ot make each modifier on a new line; and spaces between views
+* Visual design wasn't part of the requirements but many phone it in on this
+* Organize with App file first and ContentView second
+* Let's clean up blatant UI issues
+* for check 2 the app should run in simulator
+* Make each page end with "Page"
+* Let's make some reusable views with name ending "View"
+* 750 words requirement
+* Do not leave commented code in most cases

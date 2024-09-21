@@ -26,52 +26,11 @@ weight: 30
 
 {{< liteyoutube "zWAY6Xe4ckI" >}}
 
-### ZStack
+---
 
-* Will the the size of its largest view
-* First view in the stack is at the bottom and successive views go over
-* Nine typical alignments but even more exists https://developer.apple.com/documentation/swiftui/alignment
+Polish Notes
 
-### ScrollView
-
-* Beware adding padding to ScrollView itself, will cause scroll indicator to be strangely inset
-* ScrollView will only be the width of its widest child view unless you expand it
-* See in the API that you can hide the scroll indicators
-* Try making a large HStack and place it in a ScrollView that scrolls horizontally
-
-### List and Form
-
-* https://developer.apple.com/documentation/swiftui/list
-* Try out `listStyle`
-* https://developer.apple.com/documentation/swiftui/form
-
-### NavigationStack and NavigationLink
-
-https://developer.apple.com/documentation/swiftui/navigationstack
-https://developer.apple.com/documentation/swiftui/navigationlink
-
-can ignore `.navigationDestination` for now
-
-### TabView
-
-https://developer.apple.com/documentation/swiftui/tabview
-https://developer.apple.com/documentation/swiftui/tabviewstyle
-
-### Presenting a Sheet
-
-Activate with a Button or Toggle (See below)
-
-https://developer.apple.com/documentation/swiftui/view/sheet(ispresented:ondismiss:content:)
-
-## Interactive Views
-
-### Toggle
-
-https://developer.apple.com/documentation/swiftui/toggle
-
-### Button
-
-We've used this a bit in examples already. Make your own that changes a property of your view. Use the `@State` property wrapper for the thing you are going to change. There are a few built-in button styles to try too. The action can use trailing closure syntax.
-
-https://developer.apple.com/documentation/swiftui/state
-https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-state-property-wrapper
+* Need to record a clear workflow for signing into GH with Xcode, creating a repo from assignment, cloning with Xcode, committing, pushing
+* Wanted to show how to refactor repetitive code
+* Record a video for Button, Toggle, State, Binding
+* Ensure that I have clarified how to cite/note use of AI and all significant sources of code
