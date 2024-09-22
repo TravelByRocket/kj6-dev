@@ -10,15 +10,26 @@ weight: 210
     * 20+ Modifiers (like `.padding` or `.underline`, but not arguments like `.leading`)
     * 6+ Layouts Views (3+ `VStack`, 2+ `HStack` and 1+ `ZStack`)
     * Long strings stored in `enum Constants` (never source code lines over 120 characters)
-* C4W5 Sep 23 (5 Points): Interactive Views and Navigation
-    * Submit through GitHub Classroom
+* C4W5 Sep 25 (5 Points): Interactive Views and Navigation
+    * Must submit through GitHub Classroom assignment
+    * Every page in its own file with a preview
+    * Every page with a descriptive name
+    * Every type named with CamelCase (i.e., all views and pages, anytime you have `struct MyView: View`)
+    * Refactor all repetitive code (see video in Class 4 notes) that you can; if you find a part that you tried but couldn't then explain that in comments in your code
+    * Every page should be something something new to look at, not just different words and different image; a new layout, color scheme, styling, interaction, etc.
+    * I will mark you down substantially if your app looks like someone else's; the best way to ensure this is get creative and curious
+    * Use a wide variety of views and modifiers that we have used in class
+    * You must use at least a few `@State` variables and change them to update your UI
+    * I will not be checking for use of any particular data structures
+    * It is very rare that you should use `\n` for spacing, and never `""` to space views out; see padding or stacks instead
 * C5W6 Sep 30 (10 Points): Due on GitHub
     * Details TBA
     * 750+ words
     * Two data structures
 
+## Checkpoint 1 Feedback Notes for General Discussion
 
-## Checkpoint 1 Feedback
+This is not a grading checklist
 
 * Each page needs to be in its own file so each one has its own preview
 * Create projects with NO testing and NO storage
