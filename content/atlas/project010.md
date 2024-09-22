@@ -14,7 +14,7 @@ weight: 210
     * Must submit through GitHub Classroom assignment
     * Every page in its own file with a preview
     * Every page with a descriptive name
-    * Every type named with CamelCase (i.e., all views and pages, anytime you have `struct MyView: View`)
+    * Every type named with PascalCase (i.e., all views and pages, anytime you have `struct MyView: View`)
     * Refactor all repetitive code (see video in Class 4 notes) that you can; if you find a part that you tried but couldn't then explain that in comments in your code
     * Every page should be something something new to look at, not just different words and different image; a new layout, color scheme, styling, interaction, etc.
     * I will mark you down substantially if your app looks like someone else's; the best way to ensure this is get creative and curious
@@ -33,7 +33,7 @@ This is not a grading checklist
 
 * Each page needs to be in its own file so each one has its own preview
 * Create projects with NO testing and NO storage
-* CamelCaseNameApp no punctuation or spaces, same with views
+* PamelCaseNameApp no punctuation or spaces, same with views
 * Every page and view should be descriptively named
 * Show how to add files without making references that won't commit. Before submitting, try moving your project folder and see if it still works
 * I want to see a commit history
