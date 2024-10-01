@@ -41,6 +41,8 @@ can ignore `.navigationDestination` for now
 
 ### TabView
 
+> Warning: `Tab` is for iOS 18 so you should pay more attention to the tab modifiers you see in the comments at the beginning of the video. I'll update the demo app when I can.
+
 https://developer.apple.com/documentation/swiftui/tabview
 https://developer.apple.com/documentation/swiftui/tabviewstyle
 
@@ -84,3 +86,15 @@ NB: You will see a student's name in my text editor because I was taking grading
 Instructions are in the video above and here is a link for the gitignore I suggest that you use
 
 Use this one https://www.toptal.com/developers/gitignore/api/xcode,macos,visualstudiocode
+ 
+---
+
+Polish Notes
+
+* `Tab` is for iOS 18, need to show `.tab` modifier
+* iOS 17 runtime not on all devices
+* Computers clear all their data every time and makes it hard ot get started again, especially for token creation
+* Simulator wouldn't show up even after downloading three times
+* NavStack use only one 
+* Video to make extensions for colors, fonts, etc.
+* Video for making a common view with default parameters, talk about member-wise inits

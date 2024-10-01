@@ -10,7 +10,8 @@ weight: 210
     * 20+ Modifiers (like `.padding` or `.underline`, but not arguments like `.leading`)
     * 6+ Layouts Views (3+ `VStack`, 2+ `HStack` and 1+ `ZStack`)
     * Long strings stored in `enum Constants` (never source code lines over 120 characters)
-* C4W5 Sep 25 (5 Points): Interactive Views and Navigation
+* C4W5 Sep 25 (15 Points): Interactive Views and Navigation
+    * SEE CANVAS RUBRIC FOR EXACT DETAILS
     * Must submit through GitHub Classroom assignment
     * Every page in its own file with a preview
     * Every page with a descriptive name
@@ -22,10 +23,9 @@ weight: 210
     * You must use at least a few `@State` variables and change them to update your UI
     * I will not be checking for use of any particular data structures
     * It is very rare that you should use `\n` for spacing, and never `""` to space views out; see padding or stacks instead
-* C5W6 Sep 30 (10 Points): Due on GitHub
-    * Details TBA
-    * 750+ words
-    * Two data structures
+* C5W6 Oct 4 (updates the 15 points from check-in #2): Due on GitHub
+    * See the rubric on Canvas and feedback on your PR
+    * Your work will be re-evaluated with the same rubric and the same Canvas assignment (your score gets updated)
 
 ## Checkpoint 1 Feedback Notes for General Discussion
 

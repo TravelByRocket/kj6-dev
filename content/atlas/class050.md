@@ -5,6 +5,29 @@ weight: 50
 ---
 Navigation and Presentation Views
 
+Content/Clarifications to make:
+* Use SwiftFormat
+* No Xcode tokens
+* When to put stuff below body var and when to break out to new thing
+* naming conventions
+* private State
+* space between views
+* short body properties
+* Tab is iOS 18
+* use only one navigation stack
+* reminder about AI use and notes
+* navigation must work
+* preview provider is old
+* the lame comments are a dead giveaway and employers will know that too
+* use README to keep track of things instead of comments
+* Modifiers on new lines
+* Overlay as example of using trailing closure syntax, and TCS is always preferred
+* granularity as example of how to not chatgpt
+* next project will grade for formatting
+* maybe have design reviews next week on the calculation app, maybe extra credit for presenting in one week, everyone else the next week
+* screen safe areas
+* We need to talk about how I can spend less time grading and more time teaching/helping
+
 
 # Navigation and Presentation
 
