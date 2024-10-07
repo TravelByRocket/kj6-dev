@@ -15,9 +15,9 @@ weight: 60
 * Use Our Own Styles
     * How to use Apple’s modifiers (lists, toggles, sliders, etc), but with our own styling and UI
     https://developer.apple.com/documentation/swiftui/view-styles
-    Anything with section "Creating custom labeled content styles`
+    Anything with section "Creating custom labeled content styles"
     * [Button](https://developer.apple.com/documentation/swiftui/buttonstyle) Use this frequently
-    * [Label](https://developer.apple.com/documentation/swiftui/labelstyle Used this one time)
+    * [Label](https://developer.apple.com/documentation/swiftui/labelstyle) Used this one time
     * [Toggle](https://developer.apple.com/documentation/swiftui/togglestyle) Saw it used once
     * [Menu](https://developer.apple.com/documentation/swiftui/menustyle) This one is news to me
     * Several others: Gauge, Table, other obscure views...
