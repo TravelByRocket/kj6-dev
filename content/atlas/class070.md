@@ -5,7 +5,7 @@ weight: 70
 ---
 User Defaults, JSON Parsing, SwiftData
 
-
+[View Styles](../swiftui/styles/)
 
 
 

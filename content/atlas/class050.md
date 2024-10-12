@@ -1,6 +1,6 @@
 ---
-title: "5: September 30"
-draft: true
+title: "September 30 (5)"
+draft: false
 weight: 50
 ---
 

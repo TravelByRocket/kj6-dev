@@ -52,3 +52,13 @@ weight: 300
 - https://cupcakeipsum.com/
 - https://developer.apple.com/fonts/system-fonts/ use as `.custom("AmericanTypewriter"...`
 - https://javarevisited.blogspot.com/2022/05/ios-developer-roadmap.html
+- https://designcode.io
+
+YouTube
+- Sean Allen (prolific Swift teacher) https://www.youtube.com/@seanallen
+- Prof. John Gallaugher (runs an app class) https://www.youtube.com/@profgallaugher
+- Pragma Mark Conference (look up other conferences!) https://www.youtube.com/@PragmaMark
+- Paul Hudson, Hacking with Swift https://www.youtube.com/@twostraws
+- Mizko (UI/UX turned entrepreneur) https://www.youtube.com/@Mizko
+- Kavsoft (creative SwiftUI solutions) https://www.youtube.com/@Kavsoft
+- Karin Prater (app developer) https://www.youtube.com/@SwiftyPlace

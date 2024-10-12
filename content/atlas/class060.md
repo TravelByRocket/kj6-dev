@@ -23,7 +23,7 @@ weight: 60
     * Several others: Gauge, Table, other obscure views...
     * Not available AFAIK: TextField, List, Picker
 * Animations (and Transitions), 
-    * Provided example is for [confetti](https://github.com/simibac/ConfettiSwiftUII) but I don't like all the AnyView and DispatchQueue
+    * Provided example is for [confetti](https://github.com/simibac/ConfettiSwiftUI) but I don't like all the AnyView and DispatchQueue
     * Let's talk about the ways to set an animation
     * Let's set a transition, combined transition, and asymmetric transition
 * Layouts
@@ -37,3 +37,12 @@ weight: 60
     * Picker
     * DatePicker
 * ViewBuilder
+
+
+---
+
+Polish Notes
+
+* Project names poorly formatted
+* Created project with git repo and that caused issues initially because seen as submodule
+* Need to show how to move files up one level to match repo file structure to project file structure (cope/paste filepath from PR)

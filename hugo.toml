@@ -10,4 +10,9 @@ enableGitInfo = true
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
-  home = ["HTML", "RSS","JSON"]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  xcode_version = 'xcode_versions'

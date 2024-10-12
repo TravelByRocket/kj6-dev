@@ -15,6 +15,11 @@
   url = "atlas/"
 
 [[main]]
+  name = "SwiftUI"
+  weight = 35
+  url = "swiftui/"
+
+[[main]]
   name = "About"
   weight = 40
   url = "about/"

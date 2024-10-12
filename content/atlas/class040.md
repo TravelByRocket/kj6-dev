@@ -1,5 +1,5 @@
 ---
-title: "4: September 23"
+title: "September 23 (4)"
 draft: false
 weight: 40
 ---
