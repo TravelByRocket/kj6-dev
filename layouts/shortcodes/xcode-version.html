@@ -1,0 +1,7 @@
+<blockquote>
+    {{ with .Page.Params.xcode_version }}
+        Xcode Version: {{ . }}
+    {{ else }}
+        Xcode Version: Not specified
+    {{ end }}
+</blockquote>

@@ -1,0 +1,8 @@
+{{ with .Page.Params.appledoc_url }}
+    <blockquote>
+        <a href="{{ . }}">Official Apple Documentation</a>
+    </blockquote>
+{{ else }}
+    Documentation Not Available
+{{ end }}
+
