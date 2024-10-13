@@ -1,135 +1,29 @@
 ---
-title: "7: October 14"
-draft: true
+title: "October 14 (7)"
+draft: false
 weight: 70
 ---
-User Defaults, JSON Parsing, SwiftData
 
-[View Styles](../swiftui/styles/)
+## Styles Documentation
 
+It's more polished and doesn't need the classroom context so I put it in a new section of the site: [View Styles](../swiftui/styles/)
 
+## Stepper and Sliders
 
-Property Wrappers, Environment Variables, Protocols
+{{< liteyoutube "zc_PncPPP14" >}}
 
-Navigation and Presentation Views
+Must bind to a `Strideable`, which would typically be an `Int` or `Double`.
 
+## TextField
 
+{{< liteyoutube "KJ8PM3kpCQA" >}}
 
+## Remaining Inputs
 
-# Navigation and Presentation
+* Picker
+* DatePicker
 
+## Remaining Recent Requests
 
-- Full Screen Cover
-
-- Menu
-
-- Alert
-
-## Interactive Views
-
-Container Views, Shapes and Styling
-
-- ForEach
-- Grid
-- Slider
-- Stepper
-- TextField
-
-# Shapes and Styling
-
-## Shapes
-
-standard ones: rectangle, circle, rounder rectangle...
-mask
-how to make custom ones (maybe a later class?)
-
-  
-
-- Shapes (Rectangle, Circle, etc.)
-
-- Gradient
-
-More Text:
-format
-formatter
-timeinterval
-
-issues with animations adding/removing text
-
-SF Symbols in depth
-
-# Basic Views
-
-- Light/Dark Mode
-
-- AccentColor
-
-- Tint
-
-# Styling Modifiers
-
-- cornerRadius
-
-
-## Shadow
-
-It exists, don't use it IMO, can make overlaps strange, why use skeuomorphism? 
-
-### GeometryReader
-
-
-- Slider
-
-- Stepper
-
-- TextField
-
-- SecureField
-
-Some modifiers only work on text, some modifiers return Text while some review `some View`
-
-corner radius
-
-
-## Frame
-
-CGFloat.infinity
-
-
-much more complex stuff perhaps in a later class or look it up yourself
-
----
-
-
-
-# TBD
-
-constants enum
-
-- ForEach
-
-
-
-- Data
-	- State, Binding, SwiftData, 
-	- TextField, Toggle, Picker
-
-
-custom button styles (but why?)
-	pressed state
-
-
-buttons details left out 
-
-
-passing functions as arguments
-passing view producing closures
-views blocking hits
-disable hit testing
-buttons in buttons
-vs onTapGesture vs onLongTapGesture
-Common to have strange non-system behavior with custom gestures
-min tap target
-considering contentshape with custom shape that has minimum sizes
-
-@Binding
+* Animations
+* ViewBuilder

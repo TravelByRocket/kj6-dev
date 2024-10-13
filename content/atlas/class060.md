@@ -22,7 +22,7 @@ weight: 60
     * [Menu](https://developer.apple.com/documentation/swiftui/menustyle) This one is news to me
     * Several others: Gauge, Table, other obscure views...
     * Not available AFAIK: TextField, List, Picker
-* Animations (and Transitions), 
+* Animations (and Transitions),
     * Provided example is for [confetti](https://github.com/simibac/ConfettiSwiftUI) but I don't like all the AnyView and DispatchQueue
     * Let's talk about the ways to set an animation
     * Let's set a transition, combined transition, and asymmetric transition
