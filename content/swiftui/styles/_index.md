@@ -54,17 +54,35 @@ Button("My Button Style") {
 
 ### Environment Variables
 
+You will likely want to change the appearance and interactivity of your styles when a view has been set as disabled. This is done with the `.disabled` view modifier and can be retrieved with the `@Environment(\.isEnabled)`. Why are the inverse of each other? I do not know. 
+
+The following environment variables don't seem widely used but could be interesting to consider in your custom styles.
+
 ```swift
-@Environment(\.isEnabled)
-@Environment(\.controlSize)
-@Environment(\.labelsVisibility)
-@Environment(\.toolbarLabelStyle)
+\.controlSize
+\.labelsVisibility
+\.toolbarLabelStyle
 ```
 
-### More Customizable Styles
+### Other Customizable Styles
 
-Gauge, Table, other obscure views...
+https://developer.apple.com/documentation/swiftui/datepickerstyle
+https://developer.apple.com/documentation/swiftui/menustyle
+https://developer.apple.com/documentation/swiftui/gaugestyle
+https://developer.apple.com/documentation/swiftui/progressviewstyle
+https://developer.apple.com/documentation/swiftui/texteditorstyle
+https://developer.apple.com/documentation/swiftui/tablestyle
+https://developer.apple.com/documentation/swiftui/disclosuregroupstyle
+https://developer.apple.com/documentation/swiftui/navigationsplitviewstyle
+https://developer.apple.com/documentation/swiftui/controlgroupstyle
+https://developer.apple.com/documentation/swiftui/formstyle
+https://developer.apple.com/documentation/swiftui/groupboxstyle
+https://developer.apple.com/documentation/swiftui/labeledcontentstyle
 
-## Only System Defined
+## Style Not Customizable
 
-Not available AFAIK: TextField, List, Picker
+https://developer.apple.com/documentation/swiftui/pickerstyle
+https://developer.apple.com/documentation/swiftui/textfieldstyle
+https://developer.apple.com/documentation/swiftui/liststyle
+https://developer.apple.com/documentation/swiftui/tabviewstyle
+https://developer.apple.com/documentation/swiftui/indexviewstyle

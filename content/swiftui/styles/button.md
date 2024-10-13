@@ -41,7 +41,7 @@ Button("Borderless Button Style") { }
     .buttonStyle(.borderless)
 ```
 
-### ButtonStyle
+## ButtonStyle
 
 * You should prefer `ButtonStyle` over `PrimitiveButtonStyle` with few exceptions
 * No need to add gestures to work, everything is included
@@ -103,7 +103,7 @@ Button("My Button Style", role: .destructive) { }
     .buttonStyle(.myButton)
 ```
 
-### PrimitiveButtonStyle
+## PrimitiveButtonStyle
 
 * Only inherit from `PrimitiveButtonStyle` when `ButtonStyle` is not sufficient
 * You must add a gesture to run the button's action
@@ -149,11 +149,11 @@ Button("My Primitive Button Style", role: .destructive) { }
 
 Note that this button does not have any kind of pressed appearance. If you want that, you will need to use a gesture that can run a closure when a gesture starts and when it ends in order to change a `@State` that affects the appearance. Have fun!
 
-### Design Considerations
+## Design Considerations
 
 Keep in mind that the default button styling applies a transparency and saturation effect to a button while it is being pressed. If you exclude something like this then your custom button style may not "feel" right to your users. Also, there is an effect applied when a button when it is disabled and you would likely want to make it visually apparent that the button cannot be pressed. `ButtonStyle` will already disable hit testing on your button if the environment's `isEnabled` variable is `false`. 
 
-### Explore
+## Explore
 
 * Under what contexts does the automatic style change?
 

@@ -1,188 +1,104 @@
 ---
 title: "Toggle"
-draft: true
-weight: 50
-appledoc_url: https://developer.apple.com/documentation/swiftui/buttonstyle
+draft: false
+weight: 30
+appledoc_url: https://developer.apple.com/documentation/swiftui/view-styles#Styling-toggles
 xcode_version: "16.1 beta 3"
 tags:
  - "Xcode 16.1 beta 3"
 ---
 
-* Applies to `NavigationLink` unless it is in a `List` or `Form`
-* `Link` looks like a `Button` but you cannot change the style
+{{< liteyoutube "D8TUsPrDP48" >}}
 
-## Discussion
+## System Styles
 
-* Must use a style if you want an `isPressed` appearance
-
-## Customizable
-
-### Button
-
-#### System Styles
-
-* Use the snippet below to see all of the built-in button styles
+Use the snippet below to see all of the built-in styles.
 
 ```swift
-Button("Auto Button Style") { }
-    .buttonStyle(.automatic)
+Toggle("Automatic", isOn: $myBool)
+    .toggleStyle(.automatic)
 
-Button("Plain Button Style") { }
-    .buttonStyle(.plain)
+Toggle("Button Toggle Style", isOn: $myBool)
+    .toggleStyle(.button)
 
-Button("Bordered Button Style") { }
-    .buttonStyle(.bordered)
-
-Button("Bordered Button Style Prominent") { }
-    .buttonStyle(.borderedProminent)
-
-Button("Borderless Button Style") { }
-    .buttonStyle(.borderless)
+Toggle("Switch Toggle Style", isOn: $myBool)
+    .toggleStyle(.switch)
 ```
 
-#### Custom Styles
+## Custom Style
 
-* Inherit from `ButtonStyle` in almost all cases
-* Only inherit from `PrimitiveButtonStyle` to define your own interactions
-* Can add properties to the style struct if desired
-
-#### Custom ButtonStyle
-
-* Inherit from `ButtonStyle` in almost all cases
-* No need to add gestures to work, everything is included
-
-Create your style struct and have it conform to `ButtonStyle`. It is customary for all button styles to be named `...ButtonStyle`. The `Configuration` type contains `.label`, `.isPressed`, and `.role` for you to use as you wish to style the button.
+Create your style struct and have it conform to `ToggleStyle`. It is customary for all toggle styles to be named `...ToggleStyle`. The `Configuration` type contains `.label`, `.isOn`, and `.isMixed` for you to use as you wish to style the button. It is up to you to use a gesture with an updating state if you want to have an `isPressed` appearance.
 
 ```swift
-struct MyButtonStyle: ButtonStyle {
+struct MyToggleStyle: ToggleStyle {
     func makeBody(configuration: Configuration) -> some View {
-        HStack(alignment: .firstTextBaseline) {
-            image(for: configuration.role)
-
+        VStack {
             configuration.label
+            
+            image(systemName: systemName(isOn: configuration.isOn))
+        }
+        .onTapGesture {
+            configuration.isOn.toggle()
         }
         .overlay {
-            if configuration.isPressed {
-                border
+            if configuration.isMixed {
+                warningBorder
             }
         }
     }
 
-    var border: some View {
-        RoundedRectangle(cornerRadius: 5)
+    func systemName(isOn: Bool) -> String {
+        isOn ? "hare" : "xmark.circle"
+    }
+
+    func image(systemName: String) -> some View {
+        Image(systemName: systemName)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 50, height: 50)
+    }
+
+    var warningBorder: some View {
+        Rectangle()
             .stroke(lineWidth: 3)
-    }
-
-    func image(for role: ButtonRole?) -> Image {
-        let systemName = switch role {
-            case .cancel: "xmark.circle"
-            case .destructive: "trash"
-            default: "face.smiling"
-        }
-
-        return Image(systemName: systemName)
+            .foregroundStyle(.orange)
     }
 }
 ```
 
-In order to use the nice `.buttonStyle(.myButton)` syntax, we must extend the `ButtonStyle` protocol. Without this, we would have to use `.buttonStyle(MyButtonStyle())`, which is now considered an old way of using styles.
+In order to use the nice `.toggleStyle(.myToggle)` syntax, we must extend the `ToggleStyle` protocol. Without this, we would have to use `.toggleStyle(MyToggleStyle())`, which is now considered an old way of using styles.
 
 ```swift
-extension ButtonStyle where Self == MyButtonStyle {
-    static var myButton: Self { .init() }
+extension ToggleStyle where Self == MyToggleStyle {
+    static var myToggle: Self { .init() }
 }
 ```
 
-See the button style in action by using the following code in your view. 
+See the toggle style in action by using the following code in your view. 
 
 ```swift
-Button("My Button Style") { }
-    .buttonStyle(.myButton)
-
-Button("My Button Style", role: .cancel) { }
-    .buttonStyle(.myButton)
-
-Button("My Button Style", role: .destructive) { }
-    .buttonStyle(.myButton)
+Toggle("My Toggle Style", isOn: $myBool)
+    .toggleStyle(.myToggle)
 ```
 
-#### Custom PrimitiveButtonStyle
-
-* Only inherit from `PrimitiveButtonStyle` when `ButtonStyle` is not sufficient
-* You must add a gesture to run the button's action
-
-The Configuration type contains `.label`, `.trigger`, and `.role` for you to use as you wish to style the button.
-
-Here is the setup
+If you want to use a multi-value switch, consider this example. Note that the state property used here is initialized as `@State private var sources = [false, false, false]`. Using the index to retrieve the state values is not something I would ever recommend but I do not want to complicate this example by creating a new type just for this example. 
 
 ```swift
-struct MyPrimitiveButtonStyle: PrimitiveButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .foregroundStyle(color(for: configuration.role))
-            .onTapGesture(perform: configuration.trigger)
-    }
-
-    func color(for role: ButtonRole?) -> Color {
-        switch role {
-            case .cancel: .orange
-            case .destructive: .purple
-            default: .green
-        }
-    }
+Toggle(sources: $sources, isOn: \.self) {
+    Text("Play with `isMixed`")
 }
+.toggleStyle(.myToggle)
 
-extension PrimitiveButtonStyle where Self == MyPrimitiveButtonStyle {
-    static var myPrimitiveButton: Self { .init() }
-}
-```
-and the usage
-
-```swift
-Button("My Primitive Button Style") { }
-    .buttonStyle(.myPrimitiveButton)
-
-Button("My Primitive Button Style", role: .cancel) { }
-    .buttonStyle(.myPrimitiveButton)
-
-Button("My Primitive Button Style", role: .destructive) { }
-    .buttonStyle(.myPrimitiveButton)
+Toggle("Source 1/3", isOn: $sources[0])
+Toggle("Source 2/3", isOn: $sources[1])
+Toggle("Source 3/3", isOn: $sources[2])
 ```
 
-#### Add Button Style Properties
+Note that if the states are all `false` or mixed then the "parent" toggle will be considered "off" and when you turn it "on" it will change all of the states to `true`. The parent toggle will only be "on" if all the states are `true` and then if you turn it off all of the states will  be turned to `false` simultaneously.
 
-If you also need to pass arguments to your style, you can add them like any other struct and pass the arguments through the extension. 
+## Explore
 
-Add the property to the struct.
-
-```swift
-struct MyButtonStyle: ButtonStyle {
-    let myToggleProperty: Bool
-
-    func makeBody(configuration: Configuration) -> some View {
-        //
-    }
-}
-```
-
-Change the `var` to a `func` with a parameter that is passed to the struct.
-
-```swift
-extension ButtonStyle where Self == MyButtonStyle {
-    static func myButton(myToggle: Bool): Self { 
-        .init(myToggleProperty: myToggle) 
-    }
-}
-```
-
-Pass your value as an argument where you use the button style.
-
-```swift
-Button("My Button Style") {
-    // no-op
-}
-.buttonStyle(.myButton(myToggle: true))
-```
+* Under what contexts does the automatic style change?
 
 {{< xcode-version >}}
 {{< apple-doc-url >}}
