@@ -53,4 +53,5 @@ See below for weekly rides, occasional rides, tire pressure calculators, and rou
 - [Slipstream](https://rideslipstream.ai)
 - [Not Bikeable](https://www.notbikeable.com/blog)
 - [The Dirty Roads](https://thedirtyroads.com)
+- [Bikepacking Roots](https://bikepackingroots.org/ride/)
 - (more to come)
