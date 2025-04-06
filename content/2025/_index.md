@@ -1,5 +1,5 @@
 ---
-title: 2026 Planning
+title: 2025 Planning
 index: false
 ---
 
