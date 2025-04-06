@@ -9,14 +9,14 @@ See below for weekly rides, occasional rides, tire pressure calculators, and rou
 (none?)
 
 ## Tuesdays
-- LoLa // [Instagram](https://www.instagram.com/lolagrvl/)
+- LoLa // [Instagram](https://www.instagram.com/lolagrvl/) // [Strava](https://www.strava.com/clubs/lolagrvl)
 
 ## Wednesdays
 - Great Golden Gravel Grinder Group (5G) // [Strava](https://www.strava.com/clubs/1059707)
 - That Other Gravel Ride (TOGR) by Ride or Die Collective (RDC) at Full Cycle // [website](https://rideordie.org/events) // [Full Cycle event page](https://www.fullcyclebikes.com/events/shop-rides-pg1382.htm) // [Strava](https://www.strava.com/clubs/225400)
 - Wheat Ridge Cyclery (WRC) at New Image Brewing (the one on 44th!) // [WRC page](https://www.wheatridgecyclery.com/articles/bike-club-pg526.htm) // [Strava](https://www.strava.com/clubs/WRC_NI_BikeClub)
 - Our Mutual Friend Cycling Club (OMFCC) // [Instagram](https://www.instagram.com/omfcyclingclub/)
-- Holy Cow // [website](https://holycow.cc/blogs/denver-stampedes/friday-evening-social-stampede // https://www.strava.com/clubs/1086194)
+- Holy Cow // [website](https://holycow.cc/blogs/denver-stampedes/friday-evening-social-stampede) // [Strava](https://www.strava.com/clubs/1086194)
 
 ## Thursdays
 - Boulder Bike Night // [website](https://instagram.com/boulderbikenight)
@@ -27,8 +27,10 @@ See below for weekly rides, occasional rides, tire pressure calculators, and rou
 - Thank Gravel It's Friday TGIF // [Instagram](https://instagram.com/thankgravelitsfriday) // [website](https://www.thankgravelitsfriday.com)
 
 ## Saturdays
+- Cassiopeia // [website](https://cassiopeia.cc/pages/calendar) // [Strava](https://www.strava.com/clubs/cassiopeia_cc)
 
 ## Sundays
+- Cassiopeia // [website](https://cassiopeia.cc/pages/calendar) // [Strava](https://www.strava.com/clubs/cassiopeia_cc)
 - Full Cycle // [website](https://www.fullcyclebikes.com/events/shop-rides-pg1382.htm) // [Strava](https://www.strava.com/clubs/225400)
 - Denver Bike & Ski // [Instagram](https://www.instagram.com/denverbikeandski/)
 
