@@ -31,6 +31,11 @@ index: false
 * What’s Up, Salida?! Community Coffee Meeting every 3rd Thursday
 * Open Mic (music) Last Sundays
 
+### Related
+
+* Westcliffe camp https://maps.app.goo.gl/uvEGxxYBDoMMT7hw7
+* Westcliffe coffee https://maps.app.goo.gl/pnmTC8AvatQwTqX59
+
 ## On Hold
 
 ## SW Colorado
