@@ -4,19 +4,7 @@ date: 2024-09-02T12:15:00-06:00
 draft: false
 ---
 
-“Birds Coffee Donuts” ride this Saturday, September 6, 2026. 8am Meet at Cassiopeia. There will be bingo cards for bird sightings, primo coffee stops, and YA YA's apple cider donuts. It’s a 77-mile loop with 100- and 50-mile alternate routes. It’s organized just by me but with the spirit of Lo-La in mind. It will be very casual BUT it’s NOT a “no-drop” ride. Attractions include but are not limited to:
-
-- Cassiopeia
-- LoBo Trail
-- Babette’s 
-- Union Reservoir
-- Juniper Goods (cafe)
-- Golden Ponds
-- Sunflower Silo
-- YA YA Farm & Orchard
-- Cafe Fritz
-- Lagerman Agricultural Preserve
-- Lefthand, Eagle, and Cobalt Trails
+“Birds Coffee Donuts” ride this Saturday, September 6, 2026. 8am Meet at Cassiopeia. There will be bingo cards for bird sightings, primo coffee stops, and YA YA's apple cider donuts. It’s a 77-mile loop with 100- and 50-mile alternate routes. It’s organized just by me but with the spirit of Lo-La in mind. It will be very casual BUT it’s NOT a “no-drop” ride.
 
 ## Route Options
 
