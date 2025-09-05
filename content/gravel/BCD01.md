@@ -59,4 +59,4 @@ These are Komoot links. I plan to make RideWithGPS and Strava routes on Friday e
 
 Draft of card from ChatGPT, I'm still working on it
 
-![7906679B-6908-4290-872C-EB3FD09E4A1B](/Users/bryancostanza/Downloads/7906679B-6908-4290-872C-EB3FD09E4A1B.png)
+![Bird Bingo Card](/images/bcd01-bird-bingo.png)
